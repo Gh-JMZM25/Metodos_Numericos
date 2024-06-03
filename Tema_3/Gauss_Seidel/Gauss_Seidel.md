@@ -104,7 +104,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
+[![IMG-20240602-WA0028.jpg](https://i.postimg.cc/1tpFwvcL/IMG-20240602-WA0028.jpg)
 
 ### Ejercicio 2
 #### Metodologia en codigo
@@ -164,7 +164,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084348478.png](https://i.postimg.cc/50FWPBts/imagen-2024-05-23-084348478.png)](https://postimg.cc/0Mx4jJDS)
+[![IMG-20240602-WA0029.jpg](https://i.postimg.cc/ZqNvzwgC/IMG-20240602-WA0029.jpg)
 
 ### Ejercicio 3
 #### Metodologia en codigo
@@ -224,7 +224,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084553240.png](https://i.postimg.cc/NMRP9pFv/imagen-2024-05-23-084553240.png)](https://postimg.cc/LY6VGkjx)
+[![IMG-20240602-WA0030.jpg](https://i.postimg.cc/JzLzBRd4/IMG-20240602-WA0030.jpg)
 
 ### Ejercicio 4
 #### Metodologia en codigo
@@ -284,7 +284,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
+[![IMG-20240602-WA0031.jpg](https://i.postimg.cc/rwjM0xrQ/IMG-20240602-WA0031.jpg)
 
 ### Ejercicio 5
 #### Metodologia en codigo
@@ -380,7 +380,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
+[![IMG-20240602-WA0033.jpg](https://i.postimg.cc/5yBZcW5n/IMG-20240602-WA0033.jpg)
 
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Gauss - Seidel](https://docs.google.com/spreadsheets/d/126d6fVLOEG1j31MZZNvPLMYPxiLwVk9_Ih7ST6xk3Z8/edit?usp=sharing)
