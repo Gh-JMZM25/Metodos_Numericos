@@ -13,6 +13,7 @@
 - [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
   - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
 
+------------
 
 ## ¿Que es?
   El método de Gauss-Seidel es un algoritmo utilizado para resolver sistemas de ecuaciones lineales de forma iterativa. 
@@ -29,6 +30,8 @@
 - [Método de Gauss-Seidel](Gauss_Seidel/Gauss_Seidel.md)
   - [Ejercicios del método de Gauss-Seidel](Gauss_Seidel/Codigos)
 
+------------
+
 ## ¿Que es?
   El método de Gauss consiste en transformar un sistema de ecuaciones lineales en uno equivalente pero más simple, utilizando 
   operaciones elementales sobre las filas de una matriz aumentada (una matriz que incluye tanto los coeficientes de las variables 
@@ -41,6 +44,8 @@
 ## Índice
 - [Método de Gauss-Simple](Gauss_Simple/Gauss_Simple.md)
   - [Ejercicios del método de Gauss-Simple](Gauss_Simple/Codigos)
+
+------------
 
 ## ¿Que es?
   El método de Jacob (también conocido como el método de iteración de Jacobianos o el método de Jacobi) es 
