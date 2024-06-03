@@ -15,7 +15,7 @@
 
 ------------
 
-## ¿Que es?
+## ¿Qué es el método de Gauss Seidel?
   El método de Gauss-Seidel es un algoritmo utilizado para resolver sistemas de ecuaciones lineales de forma iterativa. 
   Este método es una extensión del método de Jacobi y se utiliza comúnmente en álgebra lineal y en problemas de ingeniería, 
   física y matemáticas aplicadas.
@@ -32,7 +32,7 @@
 
 ------------
 
-## ¿Que es?
+## ¿Qué es el método de Gauss Simple?
   El método de Gauss consiste en transformar un sistema de ecuaciones lineales en uno equivalente pero más simple, utilizando 
   operaciones elementales sobre las filas de una matriz aumentada (una matriz que incluye tanto los coeficientes de las variables 
   como los términos constantes de las ecuaciones). Las operaciones elementales sobre las filas incluyen intercambiar filas, 
@@ -47,7 +47,7 @@
 
 ------------
 
-## ¿Que es?
+## ¿Qué es el método de Jacob?
   El método de Jacob (también conocido como el método de iteración de Jacobianos o el método de Jacobi) es 
   un algoritmo utilizado para resolver sistemas de ecuaciones lineales. Es un método iterativo que se utiliza 
   para aproximar la solución de sistemas de ecuaciones lineales, especialmente cuando estos sistemas son grandes 
