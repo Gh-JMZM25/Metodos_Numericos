@@ -23,25 +23,22 @@ El método de interpolación de Lagrange es ampliamente utilizado en diversas á
 Es importante tener en cuenta que la interpolación de Lagrange solo proporciona una aproximación de la función real, y la precisión de la aproximación depende de la distribución y el número de puntos de datos disponibles.
 
 
-## Pseudocodigo.
-    función LagrangeInterpolation(x, y, n, x_eval):
-      # x e y son los vectores de puntos de datos
-      # n es el número de puntos de datos
-      # x_eval es el valor de x en el que se desea evaluar el polinomio interpolador
-  
-      P(x) = 0  # Inicializar el polinomio interpolador
-  
-      para i desde 1 hasta n:
-          Li(x) = 1  # Inicializar el polinomio de Lagrange para el punto i
-          para j desde 1 hasta n:
-              si j != i:
-                  Li(x) = Li(x) * (x - x[j]) / (x[i] - x[j])
-          P(x) = P(x) + y[i] * Li(x)
-  
-      valor_interpolado = evaluar P(x) en x_eval
-  
-      devolver valor_interpolado
+## Algoritmo.
+    Dados n+1 puntos (x0, y0), (x1, y1), ..., (xn, yn)
 
+Paso 1: Para cada i = 0, 1, ..., n, calcular el polinomio de Lagrange Li(x):
+
+        Li(x) = PRODUCTO ( (x - xj) / (xi - xj) )
+               j=0...n
+               j ≠ i
+
+Paso 2: El polinomio de interpolación de Lagrange P(x) se define como:
+
+        P(x) = SUMA ( yi * Li(x) )
+               i=0...n
+
+Paso 3: Para interpolar un valor y en un punto x, evaluar:
+        y = P(x)
 ## Implementación de los codigos en Python.
 ### Ejercicio 1.py
 #### Codigo.
