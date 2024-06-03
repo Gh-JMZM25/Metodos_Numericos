@@ -16,6 +16,8 @@ La regla de Simpson es un método de integración numérica que se utiliza para 
 ### Ejercicio 1
 #### Metodologia en codigo
 
+∫(0 a 1) e^(x^2) dx
+
 ```python
 import numpy as np
 
@@ -81,6 +83,8 @@ print("")
 
 ### Ejercicio 2
 #### Metodologia en codigo
+
+∫(0 a 5) x^3 dx
 
 ```python
 # Método regla de Simpson
@@ -155,6 +159,8 @@ print("")
 ### Ejercicio 3
 #### Metodologia en codigo
 
+∫(a hasta b) f(x) dx ≈ (h/3) * [f(a) + 4f(a+h) + 2f(a+2h) + 4f(a+3h) + ... + 2f(b-h) + f(b)]
+
 ```python
 from math import *
 
@@ -201,6 +207,8 @@ print(f"Resultado = {total}")
 
 ### Ejercicio 4
 #### Metodologia en codigo
+
+∫(a a b) f(x) dx ≈ (h/3) * [f(a) + 4f(a+h) + 2f(a+2h) + 4f(a+3h) + ... + 2f(b-h) + f(b)]
 
 ```python
 
@@ -249,6 +257,8 @@ print(f"Resultado de la aproximación = {total}")
 
 ### Ejercicio 5
 #### Metodologia en codigo
+
+∫ (3 a 5) (-x^2 + 8x - 12) dx
 
 ```python
 import numpy as np
@@ -317,6 +327,8 @@ print("")
 
 ### Ejercicio 6 (Extra java)
 #### Metodologia en codigo
+
+2 * (n^6 + 15 * n^4 + 15 * n^2 + 1)
 
 ```python
 // Java program to evaluate the given expression
