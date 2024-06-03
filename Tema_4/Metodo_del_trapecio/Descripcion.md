@@ -20,6 +20,10 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 ### Ejercicio 1
 #### Metodologia en codigo
 
+\[ \int_{0}^{\pi} x \cos(x) \, dx \]
+\[ \int_{0}^{\pi} e^{\cos(x)} \, dx \]
+
+
 ```python
     # Definir las funciones que se van a integrar
 
@@ -110,6 +114,8 @@ print("La integral de g(x) = ", integral(g, a, b))
 ### Ejercicio 2
 #### Metodologia en codigo
 
+∫abxcos(x)dx ∫abecos⁡(x) dx\int_{a}^{b} e^{\cos(x)} \, dx∫abecos(x)dx
+
 ```python
 import math
 import numpy as np
@@ -160,7 +166,9 @@ print("La integral de g(x) = ", integral(g, a, b, n))
 [![image.png](https://i.postimg.cc/XvS65b9s/image.png)](https://postimg.cc/5X3rcD7z)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodologia en codigoç
+
+∫35(−x2+8x−12)dx
 
 ```python
 import numpy as np
@@ -212,6 +220,7 @@ print("")
 ### Ejercicio 4
 #### Metodologia en codigo
 
+∫01 ex2 dx
 
 ```python
 import numpy as np
@@ -260,6 +269,8 @@ print("")
 
 ### Ejercicio 5
 #### Metodologia en codigo
+
+f(x)=e^x^2
 
 ```python
 
