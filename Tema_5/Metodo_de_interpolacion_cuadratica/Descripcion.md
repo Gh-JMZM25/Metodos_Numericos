@@ -4,31 +4,19 @@
 La interpolación consiste en hallar un dato dentro de un intervalo en el que conocemos los valores en los extremos.
 El problema general de la interpolación se nos presenta cuando nos dan una función de la cual solo conocemos una serie de puntos de la misma:
 (xo, yo), (x1, y1),........., (xn, yn)
-## Pseudocodigo.
-    Funcion InterpolacionCuadratica(x0, y0, x1, y1, x2, y2, x)
-    // Calcula los coeficientes del polinomio cuadrático
-    a0 = y0
-    a1 = (y1 - y0) / (x1 - x0)
-    a2 = ((y2 - y0) / (x2 - x0) - (y1 - y0) / (x1 - x0)) / (x2 - x1)
-    
-    // Evalúa el polinomio en x
-    y = a0 + a1 * (x - x0) + a2 * (x - x0) * (x - x1)
-    
-    Retornar y
-    FinFuncion
+## Algoritmo 
+Dados tres puntos (x0, y0), (x1, y1) y (x2, y2)
 
-    // Ejemplo de uso
-    x0 = 1
-    y0 = 2
-    x1 = 2
-    y1 = 3
-    x2 = 4
-    y2 = 5
-    x = 3
+Paso 1: Calcular los coeficientes de la ecuación cuadrática 
+         a = (y2 - y0) / ((x2 - x0) * (x2 - x1))
+         b = (y1 - y0) / ((x1 - x0) * (x1 - x2))
+         c = y0
 
-    resultado = InterpolacionCuadratica(x0, y0, x1, y1, x2, y2, x)
-    Imprimir "El valor interpolado de y en x =", x, "es", resultado
+Paso 2: El polinomio de interpolación cuadrática es:
+         P(x) = a*(x - x0)*(x - x1) + b*(x - x0)*(x - x2) + c
 
+Paso 3: Para interpolar un valor y en un punto x, evaluar:
+         y = P(x)
 
 ## Implementación de los codigos en Python.
 ### Ejercicio 1.py
