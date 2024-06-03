@@ -28,7 +28,7 @@ La interpolación es un método numérico utilizado para estimar valores descono
 
 ### Índice
 - [Interpolación](Metodo_de_interpolacion/Metodo_de_interpolacion.md)
-  - [Ejercicios del método de Interpolación](Metodo_de_interpolacio/Codigos/Metodo_de_interpolacion/)
+  - [Ejercicios del método de Interpolación](Tema_2/Metodo_de_interpolacion/Codigos/Metodo_de_interpolacion)
  
 # Método del Intervalo
 ## Definición
