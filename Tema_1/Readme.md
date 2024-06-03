@@ -7,8 +7,8 @@ El error de redondeo es la diferencia entre el valor numérico exacto y su aprox
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/error.png)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Error de Redondeo](Error_De_Redondeo/Error_Redondeo.md)
+  - [Ejercicios del método de Error de Redondeo](Error_De_Redonden/Codigos)
 
 ## Error de Truncamiento
 ### Definición
@@ -17,8 +17,8 @@ El error de truncamiento es la diferencia entre el valor exacto de una función 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/truncamiento.jpeg)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Método de Error de Truncamiento](Error_De_Truncamiento/Error_De_Truncamiento.md)
+  - [Ejercicios del método de Error de Truncamiento](Error_De_Truncamiento/Codigos)
 
 ## Overflow
 ### Definición
@@ -27,5 +27,5 @@ El overflow (desbordamiento) ocurre cuando un cálculo produce un resultado que 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/overflow.png)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Método de Overflow](Overflow/Overflow.md)
+  - [Ejercicios del método de Overflow](Overflow/Codigos)
