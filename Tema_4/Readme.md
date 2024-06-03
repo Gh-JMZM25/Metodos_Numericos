@@ -10,6 +10,8 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 - [Método del Trapecio](Metodo_del_trapecio/Descripcion.md)
   - [Ejercicios del metodo Trapecio](Metodo_del_trapecio/Codigos)
 
+------------
+
 # Metodo de la Cuadratura Gaussiana.
 
 ## ¿Qué es?
@@ -18,6 +20,8 @@ La cuadratura de Gauss es un método numérico utilizado para aproximar la integ
 ## Índice
 - [Método del Trapecio](Método_de_la_cuadratura_gaussiana/Descripcion.md)
   - [Ejercicios del metodo Trapecio](Método_de_la_cuadratura_gaussiana/Codigos)
+
+------------
 
 # Regla de Simpson.
 
