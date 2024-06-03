@@ -20,6 +20,7 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 ### Ejercicio 1
 #### Metodologia en codigo
 
+```python
     # Definir las funciones que se van a integrar
 
 import math
@@ -98,7 +99,7 @@ b = float(input("Dame el límite superior: "))
 print("La integral de f(x) = ", integral(f, a, b))
 print("La integral de g(x) = ", integral(g, a, b))
 
-
+```
 
 ### Ejecución:
 
@@ -109,6 +110,7 @@ print("La integral de g(x) = ", integral(g, a, b))
 ### Ejercicio 2
 #### Metodologia en codigo
 
+```python
 import math
 import numpy as np
 
@@ -151,7 +153,7 @@ n = int(input("Dame el número de trapecios: "))
     # Calcular e imprimir las integrales
 print("La integral de f(x) = ", integral(f, a, b, n))
 print("La integral de g(x) = ", integral(g, a, b, n))
-
+```
 
 ### Ejecución:
 
@@ -160,26 +162,7 @@ print("La integral de g(x) = ", integral(g, a, b, n))
 ### Ejercicio 3
 #### Metodologia en codigo
 
-# Método del trapecio
-
-    # Concepto:
-    # Este método se basa en la aproximación del área bajo la curva mediante trapecios. 
-    # Divide el área bajo la curva en varios trapecios y luego -
-    # calcula la suma de las áreas de estos trapecios para aproximar la integral definida.
-
-#Fórmula: 
-    # [(DeltaX]* f(a)+f(b) para solo una interaccion
-    # [(DeltaX)* [f(x0)+2f(x1)+2f(x2)+...+ 2f(xn-1)+f(xn)+] para varias interacciones
-
-    # Significado de la simbología:
-
-    #    - f(x0): Funcion evaluada con intervalo a.
-    #    - f(x1,x2): Funciom evaludada con n.
-    #    - ( DeltaX o h): Funcion evaluada (b-a)/n
-    #    - ( a ) y ( b ): Extremos del intervalo de integración.
-    #    - ( n ): Número de subintervalos en los que se divide el intervalo.
-
-
+```python
 import numpy as np
 
 String = "(-x^2 + 8x - 12)"
@@ -219,6 +202,8 @@ print("El resultado aplicando el método del trapecio es:", resultado_trapecio)
 print("Bibliográfia: https://www.youtube.com/watch?v=6A6dtNJbdT0&ab_channel=Matem%C3%A1ticasPi%C3%B1a%2aProfePi%C3%B1a%2a")
 print("")
 
+```
+
 
 ### Ejecución:
 
@@ -227,26 +212,8 @@ print("")
 ### Ejercicio 4
 #### Metodologia en codigo
 
-    # Método del trapecio
 
-    # Concepto:
-    # Este método se basa en la aproximación del área bajo la curva mediante trapecios. 
-    # Divide el área bajo la curva en varios trapecios y luego -
-    # calcula la suma de las áreas de estos trapecios para aproximar la integral definida.
-
-#Fórmula: 
-    # [(DeltaX]* f(a)+f(b) para solo una interaccion
-    # [(DeltaX)* [f(x0)+2f(x1)+2f(x2)+...+ 2f(xn-1)+f(xn)+] para varias interacciones
-
-    # Significado de la simbología:
-
-    #    - f(x0): Funcion evaluada con intervalo a.
-    #    - f(x1,x2): Funciom evaludada con n.
-    #    - ( DeltaX o h): Funcion evaluada (b-a)/n
-    #    - ( a ) y ( b ): Extremos del intervalo de integración.
-    #    - ( n ): Número de subintervalos en los que se divide el intervalo.
-
-
+```python
 import numpy as np
 
 String = "f(x) = e^(x^2)"
@@ -284,6 +251,7 @@ print("El n de interacciones es: ", n)
 print("El resultado aplicando el método del trapecio es:", resultado_trapecio)
 print("Bibliográfia: https://www.youtube.com/watch?v=rREhW5wjkUI&list=PLJPaSlai3G9YIgCJq4a3vbK6P3zWNPOWk&index=21&ab_channel=AntonioCedilloHernandez")
 print("")
+```
 
 ### Ejecución:
 
@@ -293,22 +261,7 @@ print("")
 ### Ejercicio 5
 #### Metodologia en codigo
 
-# Método del trapecio
-
-    # Concepto:
-    # Este método se basa en la aproximación del área bajo la curva mediante trapecios. 
-    # Divide el área bajo la curva en varios trapecios y luego -
-    # calcula la suma de las áreas de estos trapecios para aproximar la integral definida.
-
-#Fórmula: 
-    # [(DeltaX o H]* [f(a)+f(b)]/2 para solo una interaccion
-
-    # Significado de la simbología:
-    
-    #    - f(x0): Funcion evaluada con intervalo a.
-    #    - f(x1,x2): Funciom evaludada con n.
-    #    - ( DeltaX o h): Funcion evaluada (b-a)/n
-    #    - ( a ) y ( b ): Extremos del intervalo de integración.
+```python
 
 String = "f(x) = ∫x^3+6x^2+11x-6 dx  en los puntos a:1.3   &   b: 1.8"
 
@@ -355,6 +308,8 @@ print("Bibliografía:https://es.symbolab.com/solver/step-by-step/%5Cint_%7B1.3%7
 print("El link anterior demuestra el resultado en Symbolab para confirmar la validez del resultado")
 print("El margen de error es: ",mE)
 print("")
+
+```
 
 ### Ejecución:
 
