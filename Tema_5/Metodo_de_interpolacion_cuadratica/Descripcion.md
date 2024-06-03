@@ -32,6 +32,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 
 ## Implementación de los codigos en Python.
 ### Ejercicio 1.py
+En esta implementación se resuelve un problema para buscar la población aproximada en el año 1997 tomando base los años de 1986, 1994 y 2001, se usa el método de Interpolación Cuadrática.
 #### Codigo.
     import numpy as np
 
