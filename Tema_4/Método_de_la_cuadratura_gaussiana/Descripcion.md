@@ -13,6 +13,8 @@ La cuadratura de Gauss es un método numérico utilizado para aproximar la integ
 ### Ejercicio 1
 #### Metodologia en codigo
 
+∫(0 a 1) e^(-x^2) dx
+
 ```python
 import math
 
@@ -82,6 +84,8 @@ print("El resultado de la integral es:", resultado_integral)
 ### Ejercicio 2
 #### Metodologia en codigo
 
+∫(0 a 1) (1 - x^2) dx
+
 ```python
 import numpy as np
 
@@ -112,6 +116,8 @@ print(i)
 
 ### Ejercicio 3
 #### Metodologia en codigo
+
+∫ {0.2}^{1.2} e^{x^2} \, dx \]
 
 ```python
 import numpy as np
@@ -182,6 +188,8 @@ print("Bibliografía: https://www.youtube.com/watch?v=7fHyO8nfPIU&ab_channel=Ale
 ### Ejercicio 4
 #### Metodologia en codigo
 
+∫{-1}^{1} e^{-x^2} \, dx \]
+
 ```python
 import numpy as np
 
@@ -239,6 +247,8 @@ print("Aproximación de la integral:", resultado)
 
 ### Ejercicio 5
 #### Metodologia en codigo
+
+∫ \int_{0}^{2} x^2 \, dx \]
 
 ```python
 import numpy as np
