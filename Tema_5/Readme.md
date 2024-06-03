@@ -11,6 +11,8 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 - [Método de intepolación cuadratica](Metodo_de_interpolacion_cuadratica/Descripcion.md)
   - [Ejercicios de intepolación cuadratica](Metodo_de_interpolacion_cuadratica/Codigos)
 
+------------
+
 # Metodo de Lagrange.
 
 ## ¿Qué es?
@@ -23,6 +25,7 @@ P(x) = y₁L₁(x) + y₂L₂(x) + ... + yₙLₙ(x)
 - [Método de Interpolacion de Lagrange](Metodo_de_interpolacion_de_Lagrange/Descripcion.md)
   - [Ejercicios de Interpolacion de Lagrange](Metodo_de_interpolacion_de_Lagrange/Codigos)
 
+------------
 
 # Metodo de Newton.
 ## ¿Qué es?
@@ -33,6 +36,7 @@ La idea básica del método de Newton es construir un polinomio de grado n-1 (do
 - [Método del Newton](Metodo_de_interpolacion_de_Newton/Descripcion.md)
   - [Ejercicios del metodo de Newton](Metodo_de_interpolacion_de_Newton/Codigos)
 
+------------
 
 # Metodo de la interpolación lineal
 
