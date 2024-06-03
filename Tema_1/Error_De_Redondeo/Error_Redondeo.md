@@ -1,3 +1,5 @@
+# Error de Redondeo
+
 ## Algoritmo
 1. Definir la función f(x) cuya evaluación puede introducir errores de redondeo.
 2. Especificar el intervalo de evaluación [a, b].
