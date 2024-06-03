@@ -7,8 +7,8 @@ El método de aproximación sucesiva, también conocido como método de iteraci�
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/aprox.png)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Método de Aproximación Sucesiva](Metodo_de_aproximacion_sucesiva/Metodo_de_biseccion.md)
+  - [Ejercicios del método de Aproximación Sucesiva](Gauss_Jordan/Codigos)
 
 ## Método de Bisección
 ### Definición
@@ -17,8 +17,8 @@ El método de bisección es un método numérico para encontrar raíces de ecuac
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/biseccion.png)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Método de Bisección](Metodo_de_biseccion/Metodo_de_biseccion.md)
+  - [Ejercicios del método de Bisección](Metodo_de_biseccion/Codigos)
  
 ## Interpolación
 ### Definición
@@ -27,8 +27,8 @@ La interpolación es un método numérico utilizado para estimar valores descono
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/interpolacion.jpg)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Interpolación](Metodo_de_interpolacio/Metodo_de_intervalo.md)
+  - [Ejercicios del método de Interpolación](Metodo_de_interpolacio/Codigos/Metodo_de_intervalo)
  
 # Método del Intervalo
 ## Definición
@@ -37,5 +37,5 @@ El método del intervalo es una técnica numérica utilizada para encontrar raí
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/intervalo.jpg)
 
 ### Índice
-- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
+- [Método del Intervalo](Codigos/Metodo_de_intervalo/Metodo_de_intervalo.md)
+  - [Ejercicios del método de Método del Intervalo](Codigos/Metodo_de_intervalo/Codigos/Metodo_de_intervalo)
