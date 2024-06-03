@@ -8,7 +8,7 @@ El error de redondeo es la diferencia entre el valor numérico exacto y su aprox
 
 ### Índice
 - [Error de Redondeo](Error_De_Redondeo/Error_Redondeo.md)
-  - [Ejercicios del método de Error de Redondeo](Error_De_Redonden/Codigos)
+  - [Ejercicios del método de Error de Redondeo](Error_De_Redondeo/Codigos)
 
 ## Error de Truncamiento
 ### Definición
