@@ -1,4 +1,4 @@
-# Metodo de Taylor
+# Método de Taylor
 
 ## Definición
 El método de Taylor es un método numérico utilizado para resolver ecuaciones diferenciales ordinarias (EDOs) de orden superior. Se basa en la expansión en serie de Taylor de la solución alrededor de un punto conocido.
