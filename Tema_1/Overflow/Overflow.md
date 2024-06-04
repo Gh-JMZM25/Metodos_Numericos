@@ -16,9 +16,10 @@ El overflow (desbordamiento) ocurre cuando un cálculo produce un resultado que 
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/overflowf.png)
 
-## Metodología
-
+## Implementación de los métodos en python
 ### Ejercicio 1: Evaluar el Overflow
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para evaluar el problema de overflow en la función \( f(x) = e^x \) en el intervalo [0, 50].
 
 ```python
@@ -73,7 +74,10 @@ for i in range(n + 1):
     print(f"{x:.2f}\t{valores[i]:.5e}\t{overflow}")
 ```
 
+## Implementación de los métodos en python
 ### Ejercicio 2: Desbordamiento en una operación exponencial
+#### Metodología en código
+
 Investigar el desbordamiento al calcular una potencia muy grande.
 
 ```python
@@ -90,7 +94,10 @@ except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
 
+## Implementación de los métodos en python
 ### Ejercicio 3: Desbordamiento en un bucle factorial
+#### Metodología en código
+
 Calcular el factorial de un número grande y observar el desbordamiento.
 
 ```python
@@ -106,7 +113,10 @@ except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
 
+## Implementación de los métodos en python
 ### Ejercicio 4: Desbordamiento en una serie geométrica
+#### Metodología en código
+
 Investigar el desbordamiento al sumar una serie geométrica con una razón mayor que 1.
 
 ```python
@@ -122,7 +132,10 @@ except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
 
+## Implementación de los métodos en python
 ### Ejercicio 5: Desbordamiento en una multiplicación iterativa
+#### Metodología en código
+
 Calcular el producto de una serie de números grandes y observar el desbordamiento.
 
 ```python
