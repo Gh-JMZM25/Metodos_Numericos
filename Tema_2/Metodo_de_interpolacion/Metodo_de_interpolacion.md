@@ -48,7 +48,8 @@ plt.show()
 ```
 
 #### Comprobación
-![]()
+![Captura](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/d7fcbe5a-265e-4899-bb54-07b00a0314e3)
+
 ### Ejercicio 2: Código en Python para Interpolación Polinómica
 #### Metodología en código
 
@@ -60,14 +61,14 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import lagrange
 
 # Definir los puntos conocidos (x, y)
-x = np.array([0, 1, 2, 3, 4, 5])
+x = np.array([0, 2, 4, 6, 8, 10])
 y = np.array([0, 1, 4, 9, 16, 25])
 
 # Crear el polinomio de interpolación
 polinomio = lagrange(x, y)
 
 # Definir los puntos donde se desea estimar los valores
-x_nuevo = np.linspace(0, 5, 50)
+x_nuevo = np.linspace(0, 10, 50)
 y_nuevo = polinomio(x_nuevo)
 
 # Graficar los puntos conocidos y el polinomio de interpolación
@@ -80,7 +81,7 @@ plt.title('Interpolación Polinómica')
 plt.show()
 ```
 #### Comprobación
-![]()
+![Captura2](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/33f5133b-caa9-49e4-a039-a0d1a71ae1a4)
 
 ### Ejercicio 3: Interpolación Lineal
 #### Metodología en código
