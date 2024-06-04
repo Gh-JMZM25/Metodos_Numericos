@@ -25,7 +25,7 @@ El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios p
 ## Implementación de los codigos en Python
 
 ### Ejercicio 1.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = x−y  con las condiciones iniciales x(0) = 0, y(0) = 1 hasta x = 2 usando 10 pasos:
 
       def runge_kutta4(f, x0, y0, xn, n):
@@ -80,7 +80,7 @@ El resultado consiste en dos listas: "x_sol" y "y_sol", que contienen los valore
 [![imagen-2024-05-28-195541032.png](https://i.postimg.cc/PqVkWD3T/imagen-2024-05-28-195541032.png)](https://postimg.cc/Z9NgZWzM)
 
 ### Ejercicio 2.py
-#### Codigo
+#### Código
 El ejemplo de uso de este método se ilustra con una ecuación diferencial específica dy —y + x^2, y se resuelve para x en el intervalo [0, 2] con y(0) = 1 utilizando 20 pasos.
 
       import numpy as np
@@ -137,7 +137,7 @@ El resultado impreso son las soluciones aproximadas para x e y en cada paso de l
 [![imagen-2024-05-28-200545335.png](https://i.postimg.cc/W3V07DhY/imagen-2024-05-28-200545335.png)](https://postimg.cc/2qHqkSdn)
 
 ### Ejercicio 3.py
-#### Codigo
+#### Código
 La función f define la EDO que se va a resolver (dy/dx = f(x, y) en este caso dy/dx = y * sin(x) + x), y las condiciones iniciales son x0 = 0 y y0 = 1. El intervalo de integración va desde x0 hasta xn = 10, dividido en n = 100 pasos.
 
       import numpy as np
@@ -200,7 +200,7 @@ El resultado de la ejecución de este código será una gráfica que muestra la 
 [![imagen-2024-05-28-201429064.png](https://i.postimg.cc/tTVC7DXL/imagen-2024-05-28-201429064.png)](https://postimg.cc/1nsZjGVH)
 
 ### Ejercicio 4.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = y * sin(x) + x  con las condiciones iniciales x(0) = 0, y(0) = 1 hasta x = 10 usando 100 pasos:
 
       import numpy as np
@@ -264,7 +264,7 @@ El resultado es una gráfica que muestra la solución numérica de la EDO en el 
 
 
 ### Ejercicio 5.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = y * e^-x  con las condiciones iniciales x(0) = 0, y(0) = 1 hasta x = 5 usando 100 pasos:
 
       import numpy as np
