@@ -77,7 +77,8 @@ for i in range(n + 1):
     x = a + i * h
     print(f"{x:.2f}\t{valores_exactos[i]:.5f}\t{valores_aproximados[i]:.5f}\t{errores[i]:.5f}")
 ```
-
+### Comprobación.
+![]()
 ### Ejercicio 2: Aproximación de una derivada utilizando diferencias finitas
 Aproximar la derivada de una función en un punto utilizando el método de diferencias finitas hacia adelante y analizar el error de truncamiento.
 
@@ -107,7 +108,8 @@ print(f"Derivada exacta: {derivada_exacta}")
 print(f"Derivada aproximada: {derivada_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
-
+### Comprobación.
+![]()
 ### Ejercicio 3: Aproximación de una integral utilizando la regla del trapecio
 Aproximar una integral definida utilizando la regla del trapecio y analizar el error de truncamiento.
 
@@ -141,7 +143,8 @@ print(f"Integral exacta: {integral_exacta}")
 print(f"Integral aproximada: {integral_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
-
+### Comprobación.
+![]()
 ### Ejercicio 4: Serie de Taylor truncada
 Aproximar el valor de \(\sin(x)\) usando una serie de Taylor truncada y analizar el error de truncamiento.
 
@@ -167,7 +170,8 @@ print(f"Valor exacto de sin({x}): {valor_exacto}")
 print(f"Valor aproximado usando la serie de Taylor truncada: {valor_aproximado}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
-
+### Comprobación.
+![]()
 ### Ejercicio 5: Diferencias finitas para aproximar la segunda derivada
 Aproximar la segunda derivada de una función en un punto utilizando diferencias finitas y analizar el error de truncamiento.
 
@@ -195,7 +199,8 @@ print(f"Segunda derivada exacta: {segunda_derivada_exacta}")
 print(f"Segunda derivada aproximada: {segunda_derivada_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
-
+### Comprobación.
+![]()
 
 ### Resultados y Análisis.
 El código anterior genera una tabla que muestra el valor exacto, el valor aproximado (usando una serie de Taylor truncada) y el error de truncamiento en varios puntos del intervalo [0, 1]. Analizando estos resultados, se puede observar cómo el error de truncamiento varía a lo largo del intervalo y entender mejor su comportamiento y magnitud.
