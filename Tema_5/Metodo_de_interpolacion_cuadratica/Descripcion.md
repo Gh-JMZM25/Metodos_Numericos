@@ -1,6 +1,6 @@
 # Metodo de cuadratico.
 
-## ¿Qué es?
+## Definición
 La interpolación consiste en hallar un dato dentro de un intervalo en el que conocemos los valores en los extremos.
 El problema general de la interpolación se nos presenta cuando nos dan una función de la cual solo conocemos una serie de puntos de la misma:
 (xo, yo), (x1, y1),........., (xn, yn)
