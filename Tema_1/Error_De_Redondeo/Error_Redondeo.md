@@ -186,6 +186,6 @@ print(f"Multiplicación con redondeo a 3 cifras decimales: {resultado_con_redond
 ### Comprobación.
 ![IMG-20240603-WA0036.jpg](https://i.postimg.cc/g0vcDjrT/IMG-20240603-WA0036.jpg)
 
-### Resultados y Análisis
+### Resultados y Análisis.
 El código anterior genera una tabla que muestra el valor exacto, el valor aproximado (redondeado a 5 decimales) y el error de redondeo en varios puntos del intervalo [0, 1]. Analizando estos resultados, se puede observar cómo el error de redondeo varía a lo largo del intervalo y entender mejor su comportamiento y magnitud.
 
