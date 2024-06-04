@@ -3,7 +3,7 @@
 ## Definición
 La interpolación lineal es un caso en donde se usa un polinomio de primer grado, es decir una función lineal o afín, para adivinar el valor de la función en un punto.
 
-## Pseudocodigo.
+## Pseudocodigo
 
     Función InterpolacionLineal(x0, y0, x1, y1, x):
         Entrada: x0, y0: coordenadas del primer punto
@@ -28,9 +28,9 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
         Imprimir "El valor interpolado en x =", x, "es:", y
     Fin Programa
 
-## Implementación de los codigos en Python.
+## Implementación de los codigos en Python
 ### Ejercicio 1.py
-#### Codigo.
+#### Codigo
    
     def lineal_interpolation(x_values, y_values, x):
         for i in range(len(x_values) - 1):
@@ -47,11 +47,11 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     y = lineal_interpolation(x_values, y_values, x)
     print(f"El valor interpolado en x={x} es: {y}")
 
-#### Comprobacion.
+#### Comprobacion
 [![Captura-de-pantalla-2024-05-20-224700.png](https://i.postimg.cc/qRBfNB5T/Captura-de-pantalla-2024-05-20-224700.png)](https://postimg.cc/wtr4Pzzf)
 
 ### Ejercicio 2.py
-#### Codigo.
+#### Codigo
    
     def lineal_interpolation(x0, y0, x1, y1, x):
         return y0 + (y1 - y0) * (x - x0) / (x1 - x0)
@@ -66,11 +66,11 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     y = lineal_interpolation(x0, y0, x1, y1, x)
     print(f"El valor interpolado en x={x} es: {y}")
     
-#### Comprobacion.
+#### Comprobacion
 [![Captura-de-pantalla-2024-05-20-224745.png](https://i.postimg.cc/yxWwTQKp/Captura-de-pantalla-2024-05-20-224745.png)](https://postimg.cc/K3SqG5Rt)
 
 ### Ejercicio 3.py
-#### Codigo.
+#### Codigo
    
      import matplotlib.pyplot as plt
 
@@ -97,11 +97,11 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     plt.title('Interpolación Lineal')
         plt.show()
     
-#### Comprobacion.
+#### Comprobacion
 [![Captura-de-pantalla-2024-05-20-224835.png](https://i.postimg.cc/Qx2RpJyS/Captura-de-pantalla-2024-05-20-224835.png)](https://postimg.cc/D8cjhLFb)
 
 ### Ejercicio 4.py
-#### Codigo.
+#### Codigo
 
      def f(x):
     return x**2
@@ -120,10 +120,10 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     print(f"El valor interpolado en x={x} es: {y}")
 
    
-#### Comprobacion.
+#### Comprobacion
 [![Captura-de-pantalla-2024-05-20-224911.png](https://i.postimg.cc/Xv8m6S7D/Captura-de-pantalla-2024-05-20-224911.png)](https://postimg.cc/zLy0TQhn)
 ### Ejercicio 5.py
-#### Codigo.
+#### Codigo
 
      def lineal_interpolation(x_values, y_values, x):
     for i in range(len(x_values) - 1):
@@ -149,5 +149,5 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
             y = lineal_interpolation(x_values, y_values, x)
             print(f"El valor interpolado en x={x} es: {y}")
 
-#### Comprobacion.
+#### Comprobacion
 [![Captura-de-pantalla-2024-05-20-224955.png](https://i.postimg.cc/MHcFBn0h/Captura-de-pantalla-2024-05-20-224955.png)](https://postimg.cc/hQBsWP5r)
