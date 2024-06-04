@@ -1,5 +1,5 @@
 # Método de Euler
-- [Metodo de Euler](Método_de_Euler/Readme.md)
+- [Método de Euler](Método_de_Euler/Readme.md)
   - [Ejercicios del metodo de euler](Método_de_Euler/Codigos)
 
 # Método de Runge-Kutta
