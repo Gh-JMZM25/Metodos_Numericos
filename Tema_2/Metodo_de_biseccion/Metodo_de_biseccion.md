@@ -197,5 +197,5 @@ print(f"Iteraciones: {i+1}")
 ```
 
 
-### Resultados y Análisis
+### Resultados y Análisis.
 El código anterior aplica el método de bisección para encontrar una solución de la ecuación \( x^3 - x - 2 = 0 \) en el intervalo \([1, 2]\). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
