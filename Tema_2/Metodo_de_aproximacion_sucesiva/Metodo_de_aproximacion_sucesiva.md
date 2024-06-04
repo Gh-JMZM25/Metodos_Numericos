@@ -1,5 +1,10 @@
 # Método de Aproximación Sucesiva
 
+## Definición
+El método de aproximación sucesiva, también conocido como método de iteración de punto fijo, es una técnica utilizada para encontrar soluciones a ecuaciones no lineales de la forma \( x = g(x) \). El método se basa en una función iterativa \( g(x) \) que genera una secuencia de valores que converge hacia la solución deseada.
+
+![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/aprox.png)
+
 ## Algoritmo
 1. Definir la función iterativa \( g(x) \).
 2. Elegir un valor inicial \( x_0 \).
