@@ -65,8 +65,7 @@ else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 2: Resolver \(x = \cos(x)\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -99,8 +98,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 3: Resolver \(x = \sqrt{3 - x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -131,8 +129,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 4: Resolver \(x = \frac{1}{1 + x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -163,8 +160,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 5: Resolver \(x = \sin(x) + 0.5\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -195,6 +191,6 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-### Resultados y Análisis.
+![]()
+### Resultados y Análisis
 El código anterior aplica el método de aproximación sucesiva para encontrar una solución de la ecuación \( x = \cos(x) \) a partir de un valor inicial de \( x_0 = 0.5 \). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
