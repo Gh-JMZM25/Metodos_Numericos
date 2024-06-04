@@ -25,7 +25,7 @@ El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios p
 ## Implementación de los codigos en Python
 
 ### Ejercicio 1.py
-#### Codigo.
+#### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = x−y  con las condiciones iniciales x(0) = 0, y(0) = 1 hasta x = 2 usando 10 pasos:
 
       def runge_kutta4(f, x0, y0, xn, n):
