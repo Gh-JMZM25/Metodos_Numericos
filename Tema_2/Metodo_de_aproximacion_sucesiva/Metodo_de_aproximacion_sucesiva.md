@@ -179,5 +179,5 @@ print(f"Iteraciones: {i+1}")
 ```
 
 
-### Resultados y Análisis
+### Resultados y Análisis.
 El código anterior aplica el método de aproximación sucesiva para encontrar una solución de la ecuación \( x = \cos(x) \) a partir de un valor inicial de \( x_0 = 0.5 \). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
