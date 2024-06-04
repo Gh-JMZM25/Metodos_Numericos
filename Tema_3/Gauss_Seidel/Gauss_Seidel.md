@@ -112,7 +112,7 @@ print(f"Solución aproximada: {x}")
 print(f"Número de iteraciones: {iters}")
 ```
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-06-03-105616466.png](https://i.postimg.cc/5y44MW4N/imagen-2024-06-03-105616466.png)](https://postimg.cc/mznfQq10)
 
 ### Ejercicio 2
@@ -180,7 +180,7 @@ print(f"Solución aproximada: {x}")
 print(f"Número de iteraciones: {iters}")
 ```
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-06-03-110323350.png](https://i.postimg.cc/0ys07tyd/imagen-2024-06-03-110323350.png)](https://postimg.cc/2V0WD7vV)
 
 ### Ejercicio 3
@@ -248,7 +248,7 @@ print(f"Solución aproximada: {x}")
 print(f"Número de iteraciones: {iters}")
 ```
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-06-03-105847420.png](https://i.postimg.cc/ZRgGwkWM/imagen-2024-06-03-105847420.png)](https://postimg.cc/7G3tLWM3)
 
 ### Ejercicio 4
@@ -316,7 +316,7 @@ print(f"Solución aproximada: {x}")
 print(f"Número de iteraciones: {iters}")
 ```
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-06-03-110443941.png](https://i.postimg.cc/ZRxWtcSZ/imagen-2024-06-03-110443941.png)](https://postimg.cc/8JspLLcn)
 
 ### Ejercicio 5
@@ -420,7 +420,7 @@ print(f"\nSolución aproximada: {x}")
 print(f"Número de iteraciones: {iters}")
 ```
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-06-03-110219291.png](https://i.postimg.cc/Sx3t0LSn/imagen-2024-06-03-110219291.png)](https://postimg.cc/YvNxYWm7)
 
 ## Implementacion y ejercicios
