@@ -21,8 +21,8 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 ### Ejercicio 1
 #### Metodología en código
 
-\[ \int_{0}^{\pi} x \cos(x) \, dx \]
-\[ \int_{0}^{\pi} e^{\cos(x)} \, dx \]
+∫\[ \int_{0}^{\pi} x \cos(x) \, dx \]
+∫\[ \int_{0}^{\pi} e^{\cos(x)} \, dx \]
 
 
 ```python
