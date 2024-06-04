@@ -1,4 +1,4 @@
-# Metodo de Newton.
+# Metodo de Newton
 
 ## Definición
 
@@ -21,7 +21,7 @@ aₙ = f[x₀, x₁, x₂, ..., xₙ]
 Donde  representa la diferencia dividida de orden  de la función  en los puntos , , ..., . Las diferencias divididas se calculan recursivamente mediante la fórmula:f[x₀, x₁, ..., xₖ]kfx₀x₁xₖ
     f[x₀, x₁, ..., xₖ] = (f[x₁, x₂, ..., xₖ] - f[x₀, x₁, ..., xₖ₋₁]) / (xₖ - x₀)4
     
-## Pseudocodigo.
+## Pseudocodigo
      función NewtonInterpolation(x, y, x_eval):
         # x e y son los vectores de puntos de datos
         # x_eval es el valor de x en el que se desea evaluar el polinomio interpolador
@@ -48,9 +48,9 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 
     devolver p_val
 
-## Implementación de los codigos en Python.
+## Implementación de los codigos en Python
 ### Ejercicio1.py
-#### Codigo.
+#### Codigo
        from math import factorial
     
     def newton_interpolation(x, y, x_val):
@@ -97,10 +97,10 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
     print(f"Cota de error: {error_bound}")
        
 
-#### Comprobacion.
+#### Comprobacion
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/24706c86-af2c-4768-a363-f95bb1b023fd)
 ### Ejercicio 2.py
-#### Codigo.
+#### Codigo
    
     from math import factorial
     
@@ -147,11 +147,11 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
     
-#### Comprobacion.
+#### Comprobacion
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/72371790-42c3-4949-95d5-56e4666f28c2)
 
 ### Ejercicio 3.py
-#### Codigo.
+#### Codigo
    
     from math import factorial
     
@@ -198,11 +198,11 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
     
-#### Comprobacion.
+#### Comprobacion
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/bd2aebd1-5f19-402d-b8eb-a6a2e71e1706)
 
 ### Ejercicio 4.py
-#### Codigo.
+#### Codigo
    
     from math import factorial
     
@@ -249,11 +249,11 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
    
-#### Comprobacion.
+#### Comprobacion
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/d7e25481-f890-4c87-b639-e95f1f01e3af)
 
 ### Ejercicio 5.py
-#### Codigo.
+#### Codigo
    
     from math import factorial
 
@@ -299,5 +299,5 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
     p_val, error_bound = newton_interpolation(x, y, x_val)
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
-#### Comprobacion.
+#### Comprobacion
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/3d4bdc6f-500d-4c2b-8e31-313eeb36bd4f)
