@@ -84,6 +84,7 @@ for i in range(n + 1):
 
 ![]()
 
+
 ## Implementación de los métodos en python
 ### Ejercicio 2: Redondeo de números flotantes
 #### Metodología en código
@@ -112,6 +113,7 @@ print(f"Redondeado a 4 cifras decimales: {redondeado_4}")
 
 ![IMG-20240603-WA0034.jpg](https://i.postimg.cc/6pbCXH0X/IMG-20240603-WA0034.jpg)
 
+
 ## Implementación de los métodos en python
 ### Ejercicio 3: Redondeo de elementos en un array
 #### Metodología en código
@@ -135,6 +137,7 @@ print(redondeados)
 ### Comprobación.
 ![IMG-20240603-WA0038.jpg](https://i.postimg.cc/yNS3z7xm/IMG-20240603-WA0038.jpg)
 
+
 ## Implementación de los métodos en python
 ### Ejercicio 4: Propagación del error de redondeo en una suma
 #### Metodología en código
@@ -156,6 +159,7 @@ print(f"Suma con redondeo a 3 cifras decimales: {suma_con_redondeo}")
 ```
 ### Comprobación.
 ![IMG-20240603-WA0035.jpg](https://i.postimg.cc/4xHxYBGZ/IMG-20240603-WA0035.jpg)
+
 
 ## Implementación de los métodos en python
 ### Ejercicio 5: Error de redondeo en una multiplicación
