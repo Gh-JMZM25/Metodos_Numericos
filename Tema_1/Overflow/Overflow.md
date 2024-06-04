@@ -1,4 +1,4 @@
-# Overflow
+# Overflow.
 
 ### Definición
 El overflow (desbordamiento) ocurre cuando un cálculo produce un resultado que es mayor que el valor máximo que puede ser representado con el tipo de datos numérico utilizado en el sistema de cómputo. Esto puede llevar a resultados incorrectos o a la pérdida de información.
@@ -140,5 +140,5 @@ except OverflowError as e:
 
 
 
-### Resultados y Análisis
+### Resultados y Análisis.
 El código anterior genera una tabla que muestra el valor de la función y si ocurrió overflow en varios puntos del intervalo [0, 50]. Analizando estos resultados, se puede observar cómo y dónde ocurre el overflow, lo que ayuda a entender mejor las limitaciones de representación numérica y el comportamiento de la función en estos casos.
