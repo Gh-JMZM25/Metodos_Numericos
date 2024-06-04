@@ -15,9 +15,11 @@ El método del intervalo es una técnica numérica utilizada para encontrar raí
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/intervalof.png)
 
-## Metodología
 
+## Implementación de los métodos en python
 ### Código en Python para el Método del Intervalo
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para aplicar el método del intervalo para encontrar una raíz de la ecuación \( f(x) = 0 \).
 
 ```python
@@ -72,7 +74,12 @@ else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 5\) mediante el método del intervalo
+#### Metodología en código
+
 Utiliza el método del intervalo para encontrar la raíz de \(f(x) = x^2 - 5\) en el intervalo [2, 3].
 
 ```python
@@ -102,7 +109,12 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 3: Resolver \(f(x) = \log(x) - 1\) mediante el método del intervalo
+#### Metodología en código
+
 Utiliza el método del intervalo para encontrar la raíz de \(f(x) = \log(x) - 1\) en el intervalo [2, 3].
 
 ```python
@@ -134,7 +146,12 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 4: Resolver \(f(x) = x^3 - 7x + 6\) mediante el método del intervalo
+#### Metodología en código
+
 Utiliza el método del intervalo para encontrar la raíz de \(f(x) = x^3 - 7x + 6\) en el intervalo [1, 2].
 
 ```python
@@ -164,7 +181,12 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 5: Resolver \(f(x) = e^x - 3\) mediante el método del intervalo
+#### Metodología en código
+
 Utiliza el método del intervalo para encontrar la raíz de \(f(x) = e^x - 3\) en el intervalo [1, 2].
 
 ```python
@@ -195,6 +217,7 @@ for i in range(max_iter):
 print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
 ### Resultados y Análisis.
 El código anterior aplica el método del intervalo para encontrar una solución de la ecuación \( x^3 - x - 2 = 0 \) en el intervalo \([1, 2]\). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
