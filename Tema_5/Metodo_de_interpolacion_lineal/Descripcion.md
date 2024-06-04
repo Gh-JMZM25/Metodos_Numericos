@@ -1,4 +1,4 @@
-# Metodo de la interpolación lineal
+![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/ed5dbe86-c6e3-49c5-a9c7-a76f27d267d4)# Metodo de la interpolación lineal
 
 ## Definición
 La interpolación lineal es un caso en donde se usa un polinomio de primer grado, es decir una función lineal o afín, para adivinar el valor de la función en un punto.
@@ -31,6 +31,12 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 ## Implementación de los codigos en Python
 ### Ejercicio 1.py
 #### Codigo
+El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
+Usando los siguientes valores:
+    x_values = [1, 2, 3, 4, 5]
+    y_values = [2, 4, 6, 8, 10]
+    x = 3.5
+
    
     def lineal_interpolation(x_values, y_values, x):
         for i in range(len(x_values) - 1):
@@ -52,7 +58,14 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 
 ### Ejercicio 2.py
 #### Codigo
-   
+El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
+Usando los siguientes valores:
+    x0 = 1
+    y0 = 2
+    x1 = 5
+    y1 = 10
+    x = 3
+  
     def lineal_interpolation(x0, y0, x1, y1, x):
         return y0 + (y1 - y0) * (x - x0) / (x1 - x0)
 
@@ -71,7 +84,12 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 
 ### Ejercicio 3.py
 #### Codigo
-   
+El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
+Usando los siguientes valores:
+    x_values = [1, 2, 3, 4, 5]
+    y_values = [2, 4, 6, 8, 10]
+    x = 3.5
+    
      import matplotlib.pyplot as plt
 
     def lineal_interpolation(x_values, y_values, x):
@@ -102,7 +120,12 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 
 ### Ejercicio 4.py
 #### Codigo
-
+El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
+Usando los siguientes valores:
+    x0 = 1
+    x1 = 3
+    x = 2
+    
      def f(x):
     return x**2
 
@@ -124,6 +147,8 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 [![Captura-de-pantalla-2024-05-20-224911.png](https://i.postimg.cc/Xv8m6S7D/Captura-de-pantalla-2024-05-20-224911.png)](https://postimg.cc/zLy0TQhn)
 ### Ejercicio 5.py
 #### Codigo
+El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
+Usando los siguientes valores:
 
      def lineal_interpolation(x_values, y_values, x):
     for i in range(len(x_values) - 1):
