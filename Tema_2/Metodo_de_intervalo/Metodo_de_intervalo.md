@@ -147,7 +147,7 @@ print(f"Iteraciones: {i+1}")
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0151.jpg](https://i.postimg.cc/4xGw2F3N/IMG-20240603-WA0151.jpg)
 ### Ejercicio 4: Resolver \(f(x) = x^3 - 7x + 6\) mediante el método del intervalo
 #### Metodología en código
 
@@ -181,7 +181,7 @@ print(f"Iteraciones: {i+1}")
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0153.jpg](https://i.postimg.cc/mgSjvNc3/IMG-20240603-WA0153.jpg)
 ### Ejercicio 5: Resolver \(f(x) = e^x - 3\) mediante el método del intervalo
 #### Metodología en código
 
@@ -216,6 +216,6 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0155.jpg](https://i.postimg.cc/zfX78bWs/IMG-20240603-WA0155.jpg)
 ### Resultados y Análisis
 El código anterior aplica el método del intervalo para encontrar una solución de la ecuación \( x^3 - x - 2 = 0 \) en el intervalo \([1, 2]\). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
