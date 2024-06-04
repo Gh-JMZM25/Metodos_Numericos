@@ -155,5 +155,5 @@ except OverflowError as e:
 ![IMG-20240603-WA0102.jpg](https://i.postimg.cc/3R8y0m9B/IMG-20240603-WA0102.jpg)
 
 
-### Resultados y Análisis.
+### Resultados y Análisis
 El código anterior genera una tabla que muestra el valor de la función y si ocurrió overflow en varios puntos del intervalo [0, 50]. Analizando estos resultados, se puede observar cómo y dónde ocurre el overflow, lo que ayuda a entender mejor las limitaciones de representación numérica y el comportamiento de la función en estos casos.
