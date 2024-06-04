@@ -78,7 +78,7 @@ resultado_integral = cuadratura_gaussiana(limite_inferior, limite_superior, nume
 # Imprimimos el resultado
 print("El resultado de la integral es:", resultado_integral)
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/1XTjZGHv/image.png)](https://postimg.cc/30XBXDzG)
 
 ### Ejercicio 2
@@ -111,7 +111,7 @@ i = (b - a) * np.sum(w * f(u)) / 2
 
 print(i)
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/SxctwzzG/image.png)](https://postimg.cc/SnNr9RdX)
 
 ### Ejercicio 3
@@ -182,7 +182,7 @@ print("Método de la Cuadratura Gaussiana:", resultado_cuadratura_gaussiana)
 print("")
 print("Bibliografía: https://www.youtube.com/watch?v=7fHyO8nfPIU&ab_channel=AlejandroSandovalRamos")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/rm7PBGgQ/image.png)](https://postimg.cc/7GM972F2)
 
 ### Ejercicio 4
@@ -242,7 +242,7 @@ n = 3
 resultado = cuadratura_gaussiana(funcion_ejemplo, a, b, n)
 print("Aproximación de la integral:", resultado)
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/65fMcNsH/image.png)](https://postimg.cc/1f40R236)
 
 ### Ejercicio 5
@@ -291,5 +291,5 @@ n = 3
 resultado = cuadratura_gaussiana(funcion_ejemplo, a, b, n)
 print("Aproximación de la integral:", resultado)
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/nhV0wwpn/image.png)](https://postimg.cc/WhKGd8dy)
