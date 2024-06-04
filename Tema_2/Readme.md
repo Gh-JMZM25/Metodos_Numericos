@@ -2,7 +2,7 @@
 
 ## Método de Aproximación Sucesiva
 - [Método de Aproximación Sucesiva](Metodo_de_aproximacion_sucesiva/Metodo_de_aproximacion_sucesiva.md)
-  - [Ejercicios del método de Aproximación Sucesiva](Metodo_de_aproximacion_sucesiva/Codigos)
+  - [Codigos del método de Aproximación Sucesiva](Metodo_de_aproximacion_sucesiva/Codigos)
 
 ## Método de Bisección
 - [Método de Bisección](Metodo_de_biseccion/Metodo_de_biseccion.md)
