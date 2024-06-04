@@ -43,7 +43,7 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 ### Ejercicio 1
 #### Codigo.
 En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
-Usando:
+Usando los siguientes valores:
         x = [20, 10, 30, 45, 62]
         y = [22, 33, 14, 54, 23]
         x_val = 41
@@ -91,7 +91,7 @@ Usando:
 ### Ejercicio 2.py
 #### Codigo.
 El siguiente código, explora la interpolación de Lagrange como una técnica para aproximar valores en un conjunto de datos discreto.
-Usando:
+Usando los siguientes valores:
     x = [0, 1, 2, 3]
     y = [1, 2, 4, 8]
     x_val = 1.5
@@ -140,7 +140,7 @@ Usando:
 ### Ejercicio 3.py
 #### Codigo.
 En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
-Usando:
+Usando los siguientes valores:
     x_values = [13, 46, 79, 80]
     y_values = [73, 81, 42, 20,]
     x = 10
@@ -188,7 +188,7 @@ Usando:
 ### Ejercicio 4.py
 #### Codigo.
 El código implementa la interpolación de Lagrange para aproximar el valor de una función en un punto específico x dado un conjunto de datos de puntos conocidos (x_values, y_values). 
-Usando: 
+Usando los siguientes valores:
     x_values = [12, 41, 23, 21, 63]
     y_values = [12, 23, 34, 45, 56 ]
     x = 49
@@ -234,7 +234,7 @@ Usando:
 ### Ejercicio 5.py
 #### Codigo.
 El código implementa la interpolación de Lagrange para aproximar el valor de una función en un punto específico x dado un conjunto de datos de puntos conocidos (x_values, y_values). 
-Usando:
+Usando los siguientes valores:
     x_values = [10, 98, 23, 78,54]
     y_values = [14, 25, 36, 20, 58]
     x = 35
