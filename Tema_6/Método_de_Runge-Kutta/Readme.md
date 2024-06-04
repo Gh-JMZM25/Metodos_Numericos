@@ -74,7 +74,7 @@ En el ejemplo, se resuelve la EDO dy/dt = x−y  con las condiciones iniciales x
       for i in range(len(x_sol)):
           print(f"x = {x_sol[i]}, y = {y_sol[i]}")
           
-#### Comprobacion
+#### Comprobación
 El resultado consiste en dos listas: "x_sol" y "y_sol", que contienen los valores de x e y en cada paso. Al imprimir estas listas, se obtiene una tabla de valores aproximados de y para los correspondientes valores de x.
 
 [![imagen-2024-05-28-195541032.png](https://i.postimg.cc/PqVkWD3T/imagen-2024-05-28-195541032.png)](https://postimg.cc/Z9NgZWzM)
@@ -131,7 +131,7 @@ El ejemplo de uso de este método se ilustra con una ecuación diferencial espec
       for i in range(len(x_sol)):
           print(f"x = {x_sol[i]}, y = {y_sol[i]}")
           
-#### Comprobacion
+#### Comprobación
 El resultado impreso son las soluciones aproximadas para x e y en cada paso de la iteración.
 
 [![imagen-2024-05-28-200545335.png](https://i.postimg.cc/W3V07DhY/imagen-2024-05-28-200545335.png)](https://postimg.cc/2qHqkSdn)
@@ -192,7 +192,7 @@ La función f define la EDO que se va a resolver (dy/dx = f(x, y) en este caso d
       plt.grid()
       plt.show()
       
-#### Comprobacion
+#### Comprobación
 Finalmente, el código grafica las soluciones, mostrando cómo la solución y varía con respecto a x a lo largo del intervalo especificado.
 
 El resultado de la ejecución de este código será una gráfica que muestra la solución de la ecuación diferencial especificada por el método de Runge-Kutta de cuarto orden.
@@ -257,7 +257,7 @@ En el ejemplo, se resuelve la EDO dy/dt = y * sin(x) + x  con las condiciones in
       plt.legend()
       plt.show()
 
-#### Comprobacion
+#### Comprobación
 El resultado es una gráfica que muestra la solución numérica de la EDO en el intervalo dado de x. La solución se muestra en función de x en el eje horizontal y de y en el eje vertical.
 
 [![imagen-2024-05-28-202722014.png](https://i.postimg.cc/KcNCBBRV/imagen-2024-05-28-202722014.png)](https://postimg.cc/PNC6kLbz)
@@ -321,7 +321,7 @@ En el ejemplo, se resuelve la EDO dy/dt = y * e^-x  con las condiciones iniciale
       plt.legend()
       plt.show()
 
-#### Comprobacion
+#### Comprobación
 El resultado que arroja es una gráfica que muestra la solución numérica de la ecuación diferencial 
 dx/dy y * e^-x en el intervalo [0, 5], dada la condición inicial y(0) = 1. La solución se calcula utilizando el método de Runge-Kutta de cuarto orden y se muestra en la gráfica como una línea discontinua verde.
 
