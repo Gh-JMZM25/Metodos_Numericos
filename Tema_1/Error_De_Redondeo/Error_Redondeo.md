@@ -18,9 +18,11 @@ El error de redondeo es la diferencia entre el valor numérico exacto y su aprox
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/errorf.png)
 
-## Metodología
 
-### Ejercicio 1: Evaluar el Error de Redondeo
+## Implementación de los métodos en python
+### Ejercicio 1 Evaluar el Error de Redondeo
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para evaluar el error de redondeo en la función \( f(x) = e^x \) en el intervalo [0, 1].
 
 ```python
@@ -81,7 +83,11 @@ for i in range(n + 1):
 
 
 ![]()
+
+## Implementación de los métodos en python
 ### Ejercicio 2: Redondeo de números flotantes
+#### Metodología en código
+
 Dado un número flotante, redondearlo a diferentes cantidades de cifras decimales.
 
 ```python
@@ -105,7 +111,11 @@ print(f"Redondeado a 4 cifras decimales: {redondeado_4}")
 ### Comprobación.
 
 ![IMG-20240603-WA0034.jpg](https://i.postimg.cc/6pbCXH0X/IMG-20240603-WA0034.jpg)
+
+## Implementación de los métodos en python
 ### Ejercicio 3: Redondeo de elementos en un array
+#### Metodología en código
+
 Dado un array de números flotantes, redondear cada elemento a una cantidad específica de cifras decimales.
 
 ```python
@@ -124,7 +134,11 @@ print(redondeados)
 ```
 ### Comprobación.
 ![IMG-20240603-WA0038.jpg](https://i.postimg.cc/yNS3z7xm/IMG-20240603-WA0038.jpg)
+
+## Implementación de los métodos en python
 ### Ejercicio 4: Propagación del error de redondeo en una suma
+#### Metodología en código
+
 Analizar la propagación del error de redondeo al sumar una serie de números flotantes.
 
 ```python
@@ -142,7 +156,11 @@ print(f"Suma con redondeo a 3 cifras decimales: {suma_con_redondeo}")
 ```
 ### Comprobación.
 ![IMG-20240603-WA0035.jpg](https://i.postimg.cc/4xHxYBGZ/IMG-20240603-WA0035.jpg)
+
+## Implementación de los métodos en python
 ### Ejercicio 5: Error de redondeo en una multiplicación
+#### Metodología en código
+
 Investigar cómo el error de redondeo afecta el resultado de una multiplicación de números flotantes.
 
 ```python
