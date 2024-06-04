@@ -14,9 +14,10 @@ El método de aproximación sucesiva, también conocido como método de iteraci�
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/aproxf.jpg)
 
-## Metodología
-
+## Implementación de los métodos en python
 ### Código en Python para el Método de Aproximación Sucesiva
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para aplicar el método de aproximación sucesiva para encontrar una raíz de la ecuación \( x = g(x) \).
 
 ```python
@@ -63,8 +64,12 @@ if convergencia:
 else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 2: Resolver \(x = \cos(x)\) mediante aproximación sucesiva
+#### Metodología en código
+
 Utiliza el método de aproximación sucesiva para encontrar la solución de \(x = \cos(x)\).
 
 ```python
@@ -93,8 +98,12 @@ for i in range(max_iter):
 print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 3: Resolver \(x = \sqrt{3 - x}\) mediante aproximación sucesiva
+#### Metodología en código
+
 Utiliza el método de aproximación sucesiva para encontrar la solución de \(x = \sqrt{3 - x}\).
 
 ```python
@@ -121,8 +130,12 @@ for i in range(max_iter):
 print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 4: Resolver \(x = \frac{1}{1 + x}\) mediante aproximación sucesiva
+#### Metodología en código
+
 Utiliza el método de aproximación sucesiva para encontrar la solución de \(x = \frac{1}{1 + x}\).
 
 ```python
@@ -149,8 +162,12 @@ for i in range(max_iter):
 print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 5: Resolver \(x = \sin(x) + 0.5\) mediante aproximación sucesiva
+#### Metodología en código
+
 Utiliza el método de aproximación sucesiva para encontrar la solución de \(x = \sin(x) + 0.5\).
 
 ```python
@@ -177,7 +194,7 @@ for i in range(max_iter):
 print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
-
+#### Comprobación
 
 ### Resultados y Análisis.
 El código anterior aplica el método de aproximación sucesiva para encontrar una solución de la ecuación \( x = \cos(x) \) a partir de un valor inicial de \( x_0 = 0.5 \). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
