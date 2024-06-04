@@ -1,4 +1,6 @@
-![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/ed5dbe86-c6e3-49c5-a9c7-a76f27d267d4)# Metodo de la interpolación lineal
+# Metodo de la interpolación lineal
+
+![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/ed5dbe86-c6e3-49c5-a9c7-a76f27d267d4)
 
 ## Definición
 La interpolación lineal es un caso en donde se usa un polinomio de primer grado, es decir una función lineal o afín, para adivinar el valor de la función en un punto.
@@ -29,6 +31,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     Fin Programa
 
 ## Implementación de los codigos en Python
+
 ### Ejercicio 1.py
 #### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
@@ -145,6 +148,7 @@ Usando los siguientes valores:
    
 #### Comprobación
 [![Captura-de-pantalla-2024-05-20-224911.png](https://i.postimg.cc/Xv8m6S7D/Captura-de-pantalla-2024-05-20-224911.png)](https://postimg.cc/zLy0TQhn)
+
 ### Ejercicio 5.py
 #### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
