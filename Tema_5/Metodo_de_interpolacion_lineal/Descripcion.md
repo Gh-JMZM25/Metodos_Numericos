@@ -1,9 +1,7 @@
 # Metodo de la interpolación lineal
 
-## ¿Qué es?
-
+## Definición
 La interpolación lineal es un caso en donde se usa un polinomio de primer grado, es decir una función lineal o afín, para adivinar el valor de la función en un punto.
-
 
 ## Pseudocodigo.
 
