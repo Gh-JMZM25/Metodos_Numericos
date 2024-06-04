@@ -12,6 +12,6 @@
 - [Interpolación](Metodo_de_interpolacion/Metodo_de_interpolacion.md)
   - [Ejercicios del método de Interpolación](Tema_2/Metodo_de_interpolacion/Codigos/Metodo_de_interpolacion)
  
-# Método del Intervalo
+## Método del Intervalo
 - [Método del Intervalo](Metodo_de_intervalo/Metodo_de_intervalo.md)
   - [Ejercicios del método de Método del Intervalo](Metodo_de_intervalo/Codigos/Metodo_de_intervalo)
