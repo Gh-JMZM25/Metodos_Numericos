@@ -41,7 +41,7 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
         y = P(x)
 ## Implementación de los codigos en Python.
 ### Ejercicio 1
-#### Codigo.
+#### Código.
 En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
 Usando los siguientes valores:
         x = [20, 10, 30, 45, 62]
@@ -89,7 +89,7 @@ Usando los siguientes valores:
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/RZZ66vVF/imagen-2024-05-20-192826114.png)](https://postimg.cc/TpBYBMbM)
 
 ### Ejercicio 2.py
-#### Codigo.
+#### Código.
 El siguiente código, explora la interpolación de Lagrange como una técnica para aproximar valores en un conjunto de datos discreto.
 Usando los siguientes valores:
     x = [0, 1, 2, 3]
@@ -138,7 +138,7 @@ Usando los siguientes valores:
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1RK3pbdN/imagen-2024-05-20-193210020.png)](https://postimg.cc/fkJssqDw)
 
 ### Ejercicio 3.py
-#### Codigo.
+#### Código.
 En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
 Usando los siguientes valores:
     x_values = [13, 46, 79, 80]
@@ -186,7 +186,7 @@ Usando los siguientes valores:
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/N0bd8sRz/imagen-2024-05-20-194023521.png)](https://postimg.cc/XZGK40Hf)
 
 ### Ejercicio 4.py
-#### Codigo.
+#### Código.
 El código implementa la interpolación de Lagrange para aproximar el valor de una función en un punto específico x dado un conjunto de datos de puntos conocidos (x_values, y_values). 
 Usando los siguientes valores:
     x_values = [12, 41, 23, 21, 63]
@@ -232,7 +232,7 @@ Usando los siguientes valores:
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/V5ygsdcd/imagen-2024-05-20-194230153.png)](https://postimg.cc/T59gC216)
 
 ### Ejercicio 5.py
-#### Codigo.
+#### Código.
 El código implementa la interpolación de Lagrange para aproximar el valor de una función en un punto específico x dado un conjunto de datos de puntos conocidos (x_values, y_values). 
 Usando los siguientes valores:
     x_values = [10, 98, 23, 78,54]
