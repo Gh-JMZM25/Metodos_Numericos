@@ -112,7 +112,7 @@ x = jacobi(A, b, x0, tol, N)
 print("Solución aproximada:", x)
 ```
 
-#### Comprobacion
+#### Comprobación
 [![image.png](https://i.postimg.cc/HLhfwCWY/image.png)](https://postimg.cc/4KpLGqhq)
 
 ### Ejercicio 2
@@ -175,7 +175,7 @@ solucion = jacobi(A, b, x0)
 print('Solución:', solucion)
 ```
 
-#### Comprobacion
+#### Comprobación
 [![image.png](https://i.postimg.cc/7PcpG4sm/image.png)](https://postimg.cc/grVMQCPZ)
 
 ### Ejercicio 3
@@ -222,7 +222,7 @@ print(f"Iteraciones: {iterations}")
 
 ```
 
-#### Comprobacion
+#### Comprobación
 [![image.png](https://i.postimg.cc/v8WNBnnH/image.png)](https://postimg.cc/s1gcHvKt)
 
 ### Ejercicio 4
@@ -278,7 +278,7 @@ x = jacobi_method(A, b)
 print("Solución:", x)
 ```
 
-#### Comprobacion
+#### Comprobación
 [![image.png](https://i.postimg.cc/rpr9H6CF/image.png)](https://postimg.cc/nsn7sPP6)
 
 ### Ejercicio 5
@@ -347,7 +347,7 @@ print("Solución:", x)
 ```
 
 
-#### Comprobacion
+#### Comprobación
 [![image.png](https://i.postimg.cc/NjW6mJqh/image.png)](https://postimg.cc/QFJKrqdS)
 
 ## Implementacion y ejercicios
