@@ -109,7 +109,7 @@ print(f"Derivada aproximada: {derivada_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación.
-![]()
+![IMG-20240603-WA0094.jpg](https://i.postimg.cc/GpZ7c3Qd/IMG-20240603-WA0094.jpg)
 ### Ejercicio 3: Aproximación de una integral utilizando la regla del trapecio
 Aproximar una integral definida utilizando la regla del trapecio y analizar el error de truncamiento.
 
@@ -144,7 +144,7 @@ print(f"Integral aproximada: {integral_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación.
-![]()
+![IMG-20240603-WA0095.jpg](https://i.postimg.cc/Qt16VL45/IMG-20240603-WA0095.jpg)
 ### Ejercicio 4: Serie de Taylor truncada
 Aproximar el valor de \(\sin(x)\) usando una serie de Taylor truncada y analizar el error de truncamiento.
 
@@ -171,7 +171,7 @@ print(f"Valor aproximado usando la serie de Taylor truncada: {valor_aproximado}"
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación.
-![]()
+![IMG-20240603-WA0097.jpg](https://i.postimg.cc/0jvVwtF4/IMG-20240603-WA0097.jpg)
 ### Ejercicio 5: Diferencias finitas para aproximar la segunda derivada
 Aproximar la segunda derivada de una función en un punto utilizando diferencias finitas y analizar el error de truncamiento.
 
@@ -200,7 +200,7 @@ print(f"Segunda derivada aproximada: {segunda_derivada_aproximada}")
 print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación.
-![]()
+![IMG-20240603-WA0096.jpg](https://i.postimg.cc/90BJtdjQ/IMG-20240603-WA0096.jpg)
 
 ### Resultados y Análisis.
 El código anterior genera una tabla que muestra el valor exacto, el valor aproximado (usando una serie de Taylor truncada) y el error de truncamiento en varios puntos del intervalo [0, 1]. Analizando estos resultados, se puede observar cómo el error de truncamiento varía a lo largo del intervalo y entender mejor su comportamiento y magnitud.
