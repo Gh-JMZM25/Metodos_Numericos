@@ -68,6 +68,7 @@ valores, overflows = calcular_overflow(f, a, b, n)
 
 # Imprimir resultados
 print("x\tValor\t\tOverflow")
+h = (b - a) / n
 for i in range(n + 1):
     x = a + i * h
     overflow = "Sí" if overflows[i] else "No"
