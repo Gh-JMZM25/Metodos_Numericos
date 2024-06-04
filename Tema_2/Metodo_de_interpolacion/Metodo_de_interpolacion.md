@@ -157,5 +157,5 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
 
-### Resultados y Análisis
+### Resultados y Análisis.
 Los códigos anteriores aplican la interpolación lineal y polinómica a un conjunto de puntos conocidos. Los resultados se muestran en gráficos que ilustran cómo la función de interpolación pasa a través de todos los puntos conocidos y estima valores en puntos intermedios.
