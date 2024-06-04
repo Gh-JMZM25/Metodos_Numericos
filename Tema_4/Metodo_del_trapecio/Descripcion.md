@@ -105,7 +105,7 @@ print("La integral de g(x) = ", integral(g, a, b))
 
 ```
 
-### Ejecución
+#### Comprobación
 [![image.png](https://i.postimg.cc/rm2yq4hF/image.png)](https://postimg.cc/2qTNw1RP)
 
 
@@ -160,7 +160,7 @@ print("La integral de f(x) = ", integral(f, a, b, n))
 print("La integral de g(x) = ", integral(g, a, b, n))
 ```
 
-### Ejecución:
+#### Comprobación
 
 [![image.png](https://i.postimg.cc/XvS65b9s/image.png)](https://postimg.cc/5X3rcD7z)
 
@@ -212,7 +212,7 @@ print("")
 ```
 
 
-### Ejecución
+#### Comprobación
 [![image.png](https://i.postimg.cc/Zq8tFMc4/image.png)](https://postimg.cc/wtjG9FZG)
 
 ### Ejercicio 4
@@ -260,7 +260,7 @@ print("Bibliográfia: https://www.youtube.com/watch?v=rREhW5wjkUI&list=PLJPaSlai
 print("")
 ```
 
-### Ejecución
+#### Comprobación
 [![image.png](https://i.postimg.cc/0jHLyR8d/image.png)](https://postimg.cc/RJKPgYJN)
 
 
@@ -319,7 +319,7 @@ print("")
 
 ```
 
-### Ejecución
+#### Comprobación
 [![image.png](https://i.postimg.cc/W1ZQTHxg/image.png)](https://postimg.cc/4YJ81Bfx)
 
 
