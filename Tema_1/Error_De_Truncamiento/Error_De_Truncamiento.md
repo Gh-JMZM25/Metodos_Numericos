@@ -197,5 +197,5 @@ print(f"Error de truncamiento: {error_truncamiento}")
 ```
 
 
-### Resultados y Análisis
+### Resultados y Análisis.
 El código anterior genera una tabla que muestra el valor exacto, el valor aproximado (usando una serie de Taylor truncada) y el error de truncamiento en varios puntos del intervalo [0, 1]. Analizando estos resultados, se puede observar cómo el error de truncamiento varía a lo largo del intervalo y entender mejor su comportamiento y magnitud.
