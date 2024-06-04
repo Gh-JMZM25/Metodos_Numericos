@@ -1,4 +1,4 @@
-# Metodo del trapecioo
+# Metodo del trapecio
 
 ## ¿Qué es?
 La regla del trapecio es uno de los métodos más utilizados para calcular aproximaciones numéricas de integrales definidas. Es la primera de las fórmulas cerradas de integración de  Newton – Cotes, para el caso cuando el polinomio interpolante es de grado uno.
