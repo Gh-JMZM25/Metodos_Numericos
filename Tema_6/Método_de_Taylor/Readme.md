@@ -1,5 +1,18 @@
 # Metodo de Taylor
 
+## Definición
+El método de Taylor es un método numérico utilizado para resolver ecuaciones diferenciales ordinarias (EDOs) de orden superior. Se basa en la expansión en serie de Taylor de la solución alrededor de un punto conocido.
+
+La precisión del método depende del número de términos m retenidos en la serie de Taylor y del tamaño del paso h. Cuantos más términos se incluyan, mejor será la aproximación, pero también será más costoso computacionalmente.
+
+Una de las principales ventajas del método de Taylor es que proporciona una solución analítica aproximada en lugar de simplemente evaluar la función en puntos discretos. Sin embargo, tiene la desventaja de requerir el cálculo de derivadas sucesivas, lo cual puede ser complicado para EDOs no lineales.
+
+El método de Taylor es adecuado para EDOs de orden superior cuando se conocen las condiciones iniciales de todas las derivadas hasta el orden n-1. Para EDOs de primer orden, otros métodos como Euler o Runge-Kutta suelen ser más eficientes.La precisión del método depende del número de términos m retenidos en la serie de Taylor y del tamaño del paso h. Cuantos más términos se incluyan, mejor será la aproximación, pero también será más costoso computacionalmente.
+
+Una de las principales ventajas del método de Taylor es que proporciona una solución analítica aproximada en lugar de simplemente evaluar la función en puntos discretos. Sin embargo, tiene la desventaja de requerir el cálculo de derivadas sucesivas, lo cual puede ser complicado para EDOs no lineales.
+
+El método de Taylor es adecuado para EDOs de orden superior cuando se conocen las condiciones iniciales de todas las derivadas hasta el orden n-1. Para EDOs de primer orden, otros métodos como Euler o Runge-Kutta suelen ser más eficientes.
+
 ## Pasos para su solución
 El procedimiento para aplicar el método de Taylor es el siguiente:
    1. Definir la ecuación diferencial y las condiciones iniciales:
