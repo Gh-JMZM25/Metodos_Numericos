@@ -41,8 +41,9 @@
   lado izquierdo de la matriz aumentada.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - x + y + z = 6
 - 2y + 5z = -4
@@ -96,7 +97,7 @@ print(result)
 
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 2x + 3y + 6z = 7
 - y + z = 2
@@ -149,7 +150,7 @@ print(result)
 
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 3x + 2y = 6
 - 2x + 2y = 7
@@ -201,7 +202,7 @@ print(result)
 
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 2x + 5y = 14
 - x + 7y = 7
@@ -253,7 +254,7 @@ print(result)
 
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 2x + 1y + 3z + w = 3
 - x + 2y + 5z + w = -2
