@@ -17,6 +17,7 @@ El método de bisección es un método numérico para encontrar raíces de ecuac
 
 
 ## Implementación de los métodos en python
+
 ### Código en Python para el Método de Bisección
 #### Metodología en código
 
@@ -75,6 +76,7 @@ else:
 ```
 #### Comprobación
 ![IMG-20240603-WA0134.jpg](https://i.postimg.cc/c4rF88b0/IMG-20240603-WA0134.jpg)
+
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 3\) mediante el método de bisección
 #### Metodología en código
 
@@ -108,6 +110,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0133.jpg](https://i.postimg.cc/HsRB0sq5/IMG-20240603-WA0133.jpg)
+
 ### Ejercicio 3: Resolver \(f(x) = x^3 + x - 1\) mediante el método de bisección
 #### Metodología en código
 
@@ -141,6 +144,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0136.jpg](https://i.postimg.cc/6pZzMxKP/IMG-20240603-WA0136.jpg)
+
 ### Ejercicio 4: Resolver \(f(x) = \cos(x) - x\) mediante el método de bisección
 #### Metodología en código
 
@@ -176,6 +180,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0132.jpg](https://i.postimg.cc/KYrfy7Rr/IMG-20240603-WA0132.jpg)
+
 ### Ejercicio 5: Resolver \(f(x) = e^{-x} - x\) mediante el método de bisección
 #### Metodología en código
 
