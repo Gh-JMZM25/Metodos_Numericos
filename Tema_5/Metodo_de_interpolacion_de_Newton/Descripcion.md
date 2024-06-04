@@ -103,7 +103,7 @@ Usando los siguientes valores:
     print(f"Cota de error: {error_bound}")
        
 
-#### Comprobacion
+#### Comprobación
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/24706c86-af2c-4768-a363-f95bb1b023fd)
 ### Ejercicio 2.py
 #### Codigo
@@ -158,7 +158,7 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
     
-#### Comprobacion
+#### Comprobación
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/72371790-42c3-4949-95d5-56e4666f28c2)
 
 ### Ejercicio 3.py
@@ -214,7 +214,7 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
     
-#### Comprobacion
+#### Comprobación
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/bd2aebd1-5f19-402d-b8eb-a6a2e71e1706)
 
 ### Ejercicio 4.py
@@ -270,7 +270,7 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
    
-#### Comprobacion
+#### Comprobación
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/d7e25481-f890-4c87-b639-e95f1f01e3af)
 
 ### Ejercicio 5.py
@@ -325,5 +325,5 @@ Usando los siguientes valores:
     p_val, error_bound = newton_interpolation(x, y, x_val)
     print(f"Valor interpolado en x={x_val}: {p_val}")
     print(f"Cota de error: {error_bound}")
-#### Comprobacion
+#### Comprobación
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/3d4bdc6f-500d-4c2b-8e31-313eeb36bd4f)
