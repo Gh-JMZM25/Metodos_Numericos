@@ -47,7 +47,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     y = lineal_interpolation(x_values, y_values, x)
     print(f"El valor interpolado en x={x} es: {y}")
 
-#### Comprobacion
+#### Comprobación
 [![Captura-de-pantalla-2024-05-20-224700.png](https://i.postimg.cc/qRBfNB5T/Captura-de-pantalla-2024-05-20-224700.png)](https://postimg.cc/wtr4Pzzf)
 
 ### Ejercicio 2.py
@@ -66,7 +66,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     y = lineal_interpolation(x0, y0, x1, y1, x)
     print(f"El valor interpolado en x={x} es: {y}")
     
-#### Comprobacion
+#### Comprobación
 [![Captura-de-pantalla-2024-05-20-224745.png](https://i.postimg.cc/yxWwTQKp/Captura-de-pantalla-2024-05-20-224745.png)](https://postimg.cc/K3SqG5Rt)
 
 ### Ejercicio 3.py
@@ -97,7 +97,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     plt.title('Interpolación Lineal')
         plt.show()
     
-#### Comprobacion
+#### Comprobación
 [![Captura-de-pantalla-2024-05-20-224835.png](https://i.postimg.cc/Qx2RpJyS/Captura-de-pantalla-2024-05-20-224835.png)](https://postimg.cc/D8cjhLFb)
 
 ### Ejercicio 4.py
@@ -120,7 +120,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
     print(f"El valor interpolado en x={x} es: {y}")
 
    
-#### Comprobacion
+#### Comprobación
 [![Captura-de-pantalla-2024-05-20-224911.png](https://i.postimg.cc/Xv8m6S7D/Captura-de-pantalla-2024-05-20-224911.png)](https://postimg.cc/zLy0TQhn)
 ### Ejercicio 5.py
 #### Codigo
@@ -149,5 +149,5 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
             y = lineal_interpolation(x_values, y_values, x)
             print(f"El valor interpolado en x={x} es: {y}")
 
-#### Comprobacion
+#### Comprobación
 [![Captura-de-pantalla-2024-05-20-224955.png](https://i.postimg.cc/MHcFBn0h/Captura-de-pantalla-2024-05-20-224955.png)](https://postimg.cc/hQBsWP5r)
