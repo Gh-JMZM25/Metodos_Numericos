@@ -13,9 +13,11 @@ La interpolación es un método numérico utilizado para estimar valores descono
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/interpolacionf.png)
 
-## Metodología
-
+## Implementación de los métodos en python
 ### Código en Python para Interpolación Lineal
+#### Metodología en código
+
+
 A continuación, se presenta un ejemplo de código en Python para aplicar la interpolación lineal para estimar valores de una función desconocida a partir de un conjunto de puntos conocidos.
 
 ```python
@@ -44,7 +46,12 @@ plt.title('Interpolación Lineal')
 plt.show()
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 2: Código en Python para Interpolación Polinómica
+#### Metodología en código
+
 También se puede utilizar la interpolación polinómica para ajustar un polinomio que pase por todos los puntos conocidos.
 
 ```python
@@ -72,7 +79,12 @@ plt.legend()
 plt.title('Interpolación Polinómica')
 plt.show()
 ```
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 3: Interpolación Lineal
+#### Metodología en código
+
 Utiliza la interpolación lineal para aproximar el valor de \(f(2.5)\) dados los puntos \((1, 1)\), \((2, 4)\) y \((3, 9)\).
 
 ```python
@@ -95,7 +107,12 @@ y_interp = interpolacion_lineal(x, y, x_interp)
 print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 4: Interpolación Cuadrática
+#### Metodología en código
+
 Utiliza la interpolación cuadrática para aproximar el valor de \(f(2.5)\) dados los puntos \((1, 1)\), \((2, 4)\), \((3, 9)\) y \((4, 16)\).
 
 ```python
@@ -127,7 +144,12 @@ y_interp = interpolacion_cuadratica(x, y, x_interp)
 print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
+#### Comprobación
+
+## Implementación de los métodos en python
 ### Ejercicio 5: Interpolación de Lagrange
+#### Metodología en código
+
 Utiliza la interpolación de Lagrange para aproximar el valor de \(f(2.5)\) dados los puntos \((1, 1)\), \((2, 8)\), \((3, 27)\) y \((4, 64)\).
 
 ```python
@@ -155,7 +177,7 @@ def interpolacion_lagrange(x, y, x_interp):
 y_interp = interpolacion_lagrange(x, y, x_interp)
 print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
-
+#### Comprobación
 
 ### Resultados y Análisis.
 Los códigos anteriores aplican la interpolación lineal y polinómica a un conjunto de puntos conocidos. Los resultados se muestran en gráficos que ilustran cómo la función de interpolación pasa a través de todos los puntos conocidos y estima valores en puntos intermedios.
