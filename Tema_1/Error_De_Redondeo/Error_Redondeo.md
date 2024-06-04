@@ -20,7 +20,7 @@ El error de redondeo es la diferencia entre el valor numérico exacto y su aprox
 
 ## Metodología
 
-### Código en Python para Evaluar el Error de Redondeo
+### Ejercicio 1: Evaluar el Error de Redondeo
 A continuación, se presenta un ejemplo de código en Python para evaluar el error de redondeo en la función \( f(x) = e^x \) en el intervalo [0, 1].
 
 ```python
