@@ -1,6 +1,6 @@
 # Metodo de Newton.
 
-## ¿Qué es?
+## Definición
 
 El método de interpolación de Newton es una técnica matemática utilizada para encontrar un polinomio que pase a través de un conjunto dado de puntos de datos. Este polinomio se denomina polinomio interpolador de Newton.
 La idea básica del método de Newton es construir un polinomio de grado n-1 (donde n es el número de puntos de datos) que coincida con los valores de la función en esos puntos de datos. El polinomio interpolador de Newton se expresa como una suma de términos, donde cada término contiene un coeficiente y una potencia de (x - x₀), siendo x₀ el primer punto de datos.
@@ -19,7 +19,8 @@ a₂ = f[x₀, x₁, x₂]
 ...
 aₙ = f[x₀, x₁, x₂, ..., xₙ]
 Donde  representa la diferencia dividida de orden  de la función  en los puntos , , ..., . Las diferencias divididas se calculan recursivamente mediante la fórmula:f[x₀, x₁, ..., xₖ]kfx₀x₁xₖ
-    f[x₀, x₁, ..., xₖ] = (f[x₁, x₂, ..., xₖ] - f[x₀, x₁, ..., xₖ₋₁]) / (xₖ - x₀)
+    f[x₀, x₁, ..., xₖ] = (f[x₁, x₂, ..., xₖ] - f[x₀, x₁, ..., xₖ₋₁]) / (xₖ - x₀)4
+    
 ## Pseudocodigo.
      función NewtonInterpolation(x, y, x_eval):
         # x e y son los vectores de puntos de datos
