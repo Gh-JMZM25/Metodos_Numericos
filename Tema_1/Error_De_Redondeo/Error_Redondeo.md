@@ -104,8 +104,6 @@ print(f"Redondeado a 4 cifras decimales: {redondeado_4}")
 ```
 ### Comprobación.
 
-![Captura](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/5cb889b2-68cd-47ba-9c57-fc12730e030e)
-
 ![IMG-20240603-WA0034.jpg](https://i.postimg.cc/6pbCXH0X/IMG-20240603-WA0034.jpg)
 ### Ejercicio 3: Redondeo de elementos en un array
 Dado un array de números flotantes, redondear cada elemento a una cantidad específica de cifras decimales.
