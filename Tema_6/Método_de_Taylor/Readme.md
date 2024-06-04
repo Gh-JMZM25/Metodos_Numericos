@@ -35,10 +35,10 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
    
    7. Repetir los pasos 4, 5 y 6 para obtener aproximaciones de y en puntos sucesivos x2, x3, ..., xn.
 
-## Implementación de los codigos en Python
+## Implementación de los códigos en Python
 
 ### Ejercicio 1.py
-#### Codigo
+#### Código
 Se define la funcion f(x) = e^x y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
 
       import math
@@ -92,7 +92,7 @@ a = 3 y n = 4, la salida podría ser algo así:
 
 
 ### Ejercicio 2.py
-#### Codigo
+#### Código
 Se define la funcion f(x) = sen(x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
 
       import math
@@ -144,7 +144,7 @@ a = 3 y n = 6, la salida podría ser algo así:
 
 
 ### Ejercicio 3.py
-#### Codigo    
+#### Código    
 Se define la funcion f(x) = cos(x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
 
       import math
@@ -197,7 +197,7 @@ a = 6 y n = 7, la salida podría ser algo así:
 
 
 ### Ejercicio 4.py
-#### Codigo
+#### Código
 Se define la funcion f(x) = ln(1 + x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
 
       import math
@@ -241,7 +241,7 @@ a = 10 y n = 7, la salida podría ser algo así:
 [![imagen-2024-05-23-122451557.png](https://i.postimg.cc/MG6bd2y9/imagen-2024-05-23-122451557.png)](https://postimg.cc/ZWQd5QsN)
 
 ### Ejercicio 5.py
-#### Codigo
+#### Código
 Se define la funcion f(x) = x^3 + 2x^2 + x + 1 y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
 
       import math
