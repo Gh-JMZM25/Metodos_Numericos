@@ -1,5 +1,10 @@
 # Método de Bisección
 
+## Definición
+El método de bisección es un método numérico para encontrar raíces de ecuaciones no lineales de la forma \( f(x) = 0 \). El método se basa en la propiedad de los intervalos: si una función continua cambia de signo en un intervalo, entonces debe tener una raíz en ese intervalo.
+
+![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/biseccion.png)
+
 ## Algoritmo
 1. Definir la función \( f(x) \) y los extremos del intervalo \([a, b]\) tal que \( f(a) \cdot f(b) < 0 \).
 2. Calcular el punto medio \( c = \frac{a + b}{2} \).
