@@ -45,11 +45,11 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/FFwVVLKY/IMG-20240520-234632.png)
 
 
-#### Comprobación
+
 
 ## Implementación de los métodos en python
 ### Ejercicio 2: Programa que calcula el precio del dolar en 2016 tomando en cuenta los años 2008, 2012 y 2020
@@ -78,10 +78,9 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 200, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1zRG30vj/IMG-20240520-234653.png)
 
-#### Comprobación
 
 ## Implementación de los métodos en python
 ### Ejercicio 3: Programa que calcula la integral x^3 donde x es 4 y 0
@@ -112,11 +111,10 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
     
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/0Q8BxJSk/IMG-20240520-235820.png)
 
 
-#### Comprobación
 
 ## Implementación de los métodos en python
 ### Ejercicio 4: Programa que calcula el promedio de vida en años en México durante 1980
@@ -145,10 +143,10 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/Fz0dZ1PS/IMG-20240520-234709.png)
 
-#### Comprobación
+
 
 ## Implementación de los métodos en python
 ### Ejercicio 5: Programa que calcula el porcentaje de inflación en México en 2014
@@ -178,5 +176,5 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
 
-#### Comprobacion
+#### Comprobación
 [![imagen-2024-05-20-194355297.png](https://i.postimg.cc/1RFqPY9z/IMG-20240520-234727.png)
