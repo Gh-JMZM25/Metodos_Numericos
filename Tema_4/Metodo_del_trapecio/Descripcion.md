@@ -17,8 +17,9 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 6. Sumar todas las áreas de los trapecios para obtener la aproximación final de la integral.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 
 \[ \int_{0}^{\pi} x \cos(x) \, dx \]
 \[ \int_{0}^{\pi} e^{\cos(x)} \, dx \]
@@ -111,7 +112,7 @@ print("La integral de g(x) = ", integral(g, a, b))
 
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫abxcos(x)dx ∫abecos⁡(x) dx\int_{a}^{b} e^{\cos(x)} \, dx∫abecos(x)dx
 
@@ -165,7 +166,7 @@ print("La integral de g(x) = ", integral(g, a, b, n))
 [![image.png](https://i.postimg.cc/XvS65b9s/image.png)](https://postimg.cc/5X3rcD7z)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫35(−x2+8x−12)dx
 
@@ -216,7 +217,7 @@ print("")
 [![image.png](https://i.postimg.cc/Zq8tFMc4/image.png)](https://postimg.cc/wtjG9FZG)
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫01 ex2 dx
 
@@ -265,7 +266,7 @@ print("")
 
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 
 f(x)=e^x^2
 
