@@ -54,8 +54,9 @@
 Recuerda que la velocidad de convergencia puede variar dependiendo de la naturaleza del sistema de ecuaciones, y puede que necesites ajustar la precisión o la suposición inicial para obtener resultados satisfactorios.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
   Sistema de ecuaciones lineales 4x4:
   
   4x_1 + x_2 - x_3 + x_4 = 5
@@ -115,7 +116,7 @@ print("Solución aproximada:", x)
 [![image.png](https://i.postimg.cc/HLhfwCWY/image.png)](https://postimg.cc/4KpLGqhq)
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
   Implementa un análisis de sensibilidad para observar cómo la solución cambia con variaciones en la matriz A y el vector B:
 
   4x_1 - x_2 = 15
@@ -178,7 +179,7 @@ print('Solución:', solucion)
 [![image.png](https://i.postimg.cc/7PcpG4sm/image.png)](https://postimg.cc/grVMQCPZ)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
   Implementa una versión básica del método de Jacobi para resolver un sistema de ecuaciones lineales Ax=bAx = bAx=b:
 
    4x₁ - x₂ = 15
@@ -225,7 +226,7 @@ print(f"Iteraciones: {iterations}")
 [![image.png](https://i.postimg.cc/v8WNBnnH/image.png)](https://postimg.cc/s1gcHvKt)
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
   Sistema de ecuaciones lineales 3x3:
 
   4x₁ + x₂ + x₃ = 6
@@ -281,7 +282,7 @@ print("Solución:", x)
 [![image.png](https://i.postimg.cc/rpr9H6CF/image.png)](https://postimg.cc/nsn7sPP6)
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
   Sistema de ecuaciones lineales con matriz dispersa:
   
   10x₁ - x₂ + 2x₃ = 6
