@@ -76,7 +76,7 @@ else:
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0152.jpg](https://i.postimg.cc/90qqcVL5/IMG-20240603-WA0152.jpg)
 
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 5\) mediante el método del intervalo
 #### Metodología en código
@@ -111,7 +111,7 @@ print(f"Iteraciones: {i+1}")
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0154.jpg](https://i.postimg.cc/c1KDvnjZ/IMG-20240603-WA0154.jpg)
 ### Ejercicio 3: Resolver \(f(x) = \log(x) - 1\) mediante el método del intervalo
 #### Metodología en código
 
