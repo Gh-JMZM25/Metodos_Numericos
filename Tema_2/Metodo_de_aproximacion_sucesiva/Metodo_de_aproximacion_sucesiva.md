@@ -65,7 +65,7 @@ else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0128.jpg](https://i.postimg.cc/RVDbPTHW/IMG-20240603-WA0128.jpg)
 ### Ejercicio 2: Resolver \(x = \cos(x)\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -98,7 +98,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0127.jpg](https://i.postimg.cc/pL5c3nfq/IMG-20240603-WA0127.jpg)
 ### Ejercicio 3: Resolver \(x = \sqrt{3 - x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -129,7 +129,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0125.jpg](https://i.postimg.cc/W4MW1LfZ/IMG-20240603-WA0125.jpg)
 ### Ejercicio 4: Resolver \(x = \frac{1}{1 + x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -160,7 +160,7 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0126.jpg](https://i.postimg.cc/vBbP1qpN/IMG-20240603-WA0126.jpg)
 ### Ejercicio 5: Resolver \(x = \sin(x) + 0.5\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -191,6 +191,6 @@ print(f"Solución aproximada: {x1}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0129.jpg](https://i.postimg.cc/NMDdR8tf/IMG-20240603-WA0129.jpg)
 ### Resultados y Análisis
 El código anterior aplica el método de aproximación sucesiva para encontrar una solución de la ecuación \( x = \cos(x) \) a partir de un valor inicial de \( x_0 = 0.5 \). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
