@@ -74,7 +74,7 @@ else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0134.jpg](https://i.postimg.cc/c4rF88b0/IMG-20240603-WA0134.jpg)
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 3\) mediante el método de bisección
 #### Metodología en código
 
@@ -107,7 +107,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0133.jpg](https://i.postimg.cc/HsRB0sq5/IMG-20240603-WA0133.jpg)
 ### Ejercicio 3: Resolver \(f(x) = x^3 + x - 1\) mediante el método de bisección
 #### Metodología en código
 
@@ -140,7 +140,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0136.jpg](https://i.postimg.cc/6pZzMxKP/IMG-20240603-WA0136.jpg)
 ### Ejercicio 4: Resolver \(f(x) = \cos(x) - x\) mediante el método de bisección
 #### Metodología en código
 
@@ -175,7 +175,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0132.jpg](https://i.postimg.cc/KYrfy7Rr/IMG-20240603-WA0132.jpg)
 ### Ejercicio 5: Resolver \(f(x) = e^{-x} - x\) mediante el método de bisección
 #### Metodología en código
 
@@ -210,6 +210,6 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-![]()
+![IMG-20240603-WA0135.jpg](https://i.postimg.cc/MH4bYdFx/IMG-20240603-WA0135.jpg)
 ### Resultados y Análisis
 El código anterior aplica el método de bisección para encontrar una solución de la ecuación \( x^3 - x - 2 = 0 \) en el intervalo \([1, 2]\). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
