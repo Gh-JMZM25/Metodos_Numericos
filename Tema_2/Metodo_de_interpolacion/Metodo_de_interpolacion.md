@@ -106,7 +106,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0142.jpg](https://i.postimg.cc/Jhm3KyPy/IMG-20240603-WA0142.jpg)
 ### Ejercicio 4: Interpolación Cuadrática
 #### Metodología en código
 
@@ -142,7 +142,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
 #### Comprobación
-![]()
+![IMG-20240603-WA0143.jpg](https://i.postimg.cc/HL2wNph6/IMG-20240603-WA0143.jpg)
 ### Ejercicio 5: Interpolación de Lagrange
 #### Metodología en código
 
@@ -174,6 +174,6 @@ y_interp = interpolacion_lagrange(x, y, x_interp)
 print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 #### Comprobación
-![]()
+![]([https://i.postimg.cc/0j67r724/IMG-20240603-WA0144.jpg](https://i.postimg.cc/0j67r724/IMG-20240603-WA0144.jpg)
 ### Resultados y Análisis.
 Los códigos anteriores aplican la interpolación lineal y polinómica a un conjunto de puntos conocidos. Los resultados se muestran en gráficos que ilustran cómo la función de interpolación pasa a través de todos los puntos conocidos y estima valores en puntos intermedios.
