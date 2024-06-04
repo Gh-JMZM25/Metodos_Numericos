@@ -13,8 +13,9 @@ La regla de Simpson es un método de integración numérica que se utiliza para 
 3.- Si la función es altamente oscilatoria o carece de derivados en ciertos puntos, se puede usar la regla compuesta de Simpson dividiendo el intervalo en subintervalos pequeños y aplicando la regla de Simpson a cada uno.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(0 a 1) e^(x^2) dx
 
@@ -82,7 +83,7 @@ print("")
 [![image.png](https://i.postimg.cc/xTnRcFkL/image.png)](https://postimg.cc/MX3RL5mG)
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(0 a 5) x^3 dx
 
@@ -157,7 +158,7 @@ print("")
 [![image.png](https://i.postimg.cc/Z5DFsbwL/image.png)](https://postimg.cc/DSLX8TkW)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(a hasta b) f(x) dx ≈ (h/3) * [f(a) + 4f(a+h) + 2f(a+2h) + 4f(a+3h) + ... + 2f(b-h) + f(b)]
 
@@ -206,7 +207,7 @@ print(f"Resultado = {total}")
 [![image.png](https://i.postimg.cc/6qwd4yQB/image.png)](https://postimg.cc/N9JyWGTn)
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(a a b) f(x) dx ≈ (h/3) * [f(a) + 4f(a+h) + 2f(a+2h) + 4f(a+3h) + ... + 2f(b-h) + f(b)]
 
@@ -256,7 +257,7 @@ print(f"Resultado de la aproximación = {total}")
 [![image.png](https://i.postimg.cc/0jf7YP6D/image.png)](https://postimg.cc/jnDWKV4S)
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫ (3 a 5) (-x^2 + 8x - 12) dx
 
