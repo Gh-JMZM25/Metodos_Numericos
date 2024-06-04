@@ -1,5 +1,23 @@
 # Metodo de Jacob
 
+## Definición
+  El método de Jacob (también conocido como el método de iteración de Jacobianos o el método de Jacobi) es 
+  un algoritmo utilizado para resolver sistemas de ecuaciones lineales. Es un método iterativo que se utiliza 
+  para aproximar la solución de sistemas de ecuaciones lineales, especialmente cuando estos sistemas son grandes 
+  y sparse (es decir, tienen muchos ceros).
+    
+  El método de Jacob se basa en descomponer la matriz del sistema en una suma de una matriz diagonal y el resto 
+  de la matriz. Luego, iterativamente, se resuelve un sistema de ecuaciones en el que la matriz del sistema es la 
+  matriz diagonal y se actualizan las soluciones en cada iteración.
+    
+  El proceso se repite hasta que se alcanza una precisión deseada o se cumple algún otro criterio de convergencia. 
+  Aunque el método de Jacob puede ser relativamente simple y fácil de implementar, puede converger lentamente para 
+  ciertos tipos de sistemas de ecuaciones. Sin embargo, es útil como paso en métodos más avanzados como el método de 
+  Gauss-Seidel o el método de relajación.
+  
+  El objetivo del método de Gauss es reducir la matriz aumentada a una forma escalonada o escalonada reducida por 
+  filas, lo que facilita la resolución del sistema de ecuaciones mediante sustitución hacia atrás.
+  
 ## Pasos
   ### 1. Preparación inicial: 
   - Antes de comenzar, necesitas tener tu sistema de ecuaciones lineales en forma matricial. Es decir, necesitas tener 
