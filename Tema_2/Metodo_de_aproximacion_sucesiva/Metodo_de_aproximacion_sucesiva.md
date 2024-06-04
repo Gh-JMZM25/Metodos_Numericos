@@ -15,6 +15,7 @@ El método de aproximación sucesiva, también conocido como método de iteraci�
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/aproxf.jpg)
 
 ## Implementación de los métodos en python
+
 ### Código en Python para el Método de Aproximación Sucesiva
 #### Metodología en código
 
@@ -66,6 +67,7 @@ else:
 ```
 #### Comprobación
 ![IMG-20240603-WA0128.jpg](https://i.postimg.cc/RVDbPTHW/IMG-20240603-WA0128.jpg)
+
 ### Ejercicio 2: Resolver \(x = \cos(x)\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -99,6 +101,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0127.jpg](https://i.postimg.cc/pL5c3nfq/IMG-20240603-WA0127.jpg)
+
 ### Ejercicio 3: Resolver \(x = \sqrt{3 - x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -130,6 +133,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0125.jpg](https://i.postimg.cc/W4MW1LfZ/IMG-20240603-WA0125.jpg)
+
 ### Ejercicio 4: Resolver \(x = \frac{1}{1 + x}\) mediante aproximación sucesiva
 #### Metodología en código
 
@@ -161,6 +165,7 @@ print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
 ![IMG-20240603-WA0126.jpg](https://i.postimg.cc/vBbP1qpN/IMG-20240603-WA0126.jpg)
+
 ### Ejercicio 5: Resolver \(x = \sin(x) + 0.5\) mediante aproximación sucesiva
 #### Metodología en código
 
