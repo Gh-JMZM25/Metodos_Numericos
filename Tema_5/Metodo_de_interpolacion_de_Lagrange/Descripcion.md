@@ -85,7 +85,7 @@ Usando los siguientes valores:
         
         print(f"Valor aproximado en x={x_val}: {y_approx}")
         print(f"Cuota de error: {error_bound}")
-#### Comprobacion.
+#### Comprobación
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/RZZ66vVF/imagen-2024-05-20-192826114.png)](https://postimg.cc/TpBYBMbM)
 
 ### Ejercicio 2.py
@@ -134,7 +134,7 @@ Usando los siguientes valores:
     print(f"Valor aproximado en x={x_val}: {y_approx}")
     print(f"Cuota de error: {error_bound}")
     
-#### Comprobacion.
+#### Comprobación
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1RK3pbdN/imagen-2024-05-20-193210020.png)](https://postimg.cc/fkJssqDw)
 
 ### Ejercicio 3.py
@@ -182,7 +182,7 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x}: {y_interp}")
     print(f"Cuota de error: {error_bound}")
     
-#### Comprobacion.
+#### Comprobación
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/N0bd8sRz/imagen-2024-05-20-194023521.png)](https://postimg.cc/XZGK40Hf)
 
 ### Ejercicio 4.py
@@ -228,7 +228,7 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x}: {y_interp}")
     print(f"Cuota de error: {error_bound}")
    
-#### Comprobacion.
+#### Comprobación
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/V5ygsdcd/imagen-2024-05-20-194230153.png)](https://postimg.cc/T59gC216)
 
 ### Ejercicio 5.py
@@ -274,5 +274,5 @@ Usando los siguientes valores:
     print(f"Valor interpolado en x={x}: {y_interp}")
     print(f"Cuota de error: {error_bound}")
 
-#### Comprobacion.
+#### Comprobación
 [![imagen-2024-05-20-194355297.png](https://i.postimg.cc/J7yWhvLL/imagen-2024-05-20-194355297.png)](https://postimg.cc/hhqYyCvy)
