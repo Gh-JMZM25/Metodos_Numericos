@@ -74,8 +74,7 @@ else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 3\) mediante el método de bisección
 #### Metodología en código
 
@@ -108,8 +107,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 3: Resolver \(f(x) = x^3 + x - 1\) mediante el método de bisección
 #### Metodología en código
 
@@ -142,8 +140,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 4: Resolver \(f(x) = \cos(x) - x\) mediante el método de bisección
 #### Metodología en código
 
@@ -178,8 +175,7 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 5: Resolver \(f(x) = e^{-x} - x\) mediante el método de bisección
 #### Metodología en código
 
@@ -214,6 +210,6 @@ print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
 #### Comprobación
-
-### Resultados y Análisis.
+![]()
+### Resultados y Análisis
 El código anterior aplica el método de bisección para encontrar una solución de la ecuación \( x^3 - x - 2 = 0 \) en el intervalo \([1, 2]\). El resultado muestra si el método ha convergido a una solución dentro de un número máximo de iteraciones y una tolerancia especificada.
