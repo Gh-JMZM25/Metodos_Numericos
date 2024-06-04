@@ -78,7 +78,7 @@ for i in range(n + 1):
     print(f"{x:.2f}\t{valores_exactos[i]:.5f}\t{valores_aproximados[i]:.5f}\t{errores[i]:.5f}")
 ```
 ### Comprobación.
-![]()
+![IMG-20240603-WA0100.jpg](https://i.postimg.cc/kMZ4q0rw/IMG-20240603-WA0100.jpg)
 ### Ejercicio 2: Aproximación de una derivada utilizando diferencias finitas
 Aproximar la derivada de una función en un punto utilizando el método de diferencias finitas hacia adelante y analizar el error de truncamiento.
 
