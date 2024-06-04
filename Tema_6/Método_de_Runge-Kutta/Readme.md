@@ -1,5 +1,10 @@
 # Metodo de Runge-Kutta
 
+## ¿Qué es?
+El método de Runge-Kutta es un método numérico utilizado para resolver ecuaciones diferenciales ordinarias (EDOs) de forma más precisa y eficiente que el método de Euler. Este método fue desarrollado por los matemáticos alemanes C. Runge y M.W. Kutta a principios del siglo XX.
+
+El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios puntos dentro de un intervalo small y combinar estas evaluaciones para obtener una mejor aproximación de la solución. Existen varios órdenes del método de Runge-Kutta, siendo el de cuarto orden (RK4) uno de los más utilizados debido a su buen equilibrio entre precisión y eficiencia computacional.
+
 ## Pasos para su solución
 1. Definir la ecuación diferencial y las condiciones iniciales: Supongamos que tenemos una EDO de primer orden de la forma: dy/dx = f(x, y), con la condición inicial y(x0) = y0.
 
