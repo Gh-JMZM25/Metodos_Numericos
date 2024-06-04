@@ -44,8 +44,9 @@
   del sistema de ecuaciones lineales.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 
 10x_1 - x_2 + 2x_3  = 6
 
@@ -115,7 +116,7 @@ print(f"Número de iteraciones: {iters}")
 [![imagen-2024-06-03-105616466.png](https://i.postimg.cc/5y44MW4N/imagen-2024-06-03-105616466.png)](https://postimg.cc/mznfQq10)
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 
 4x_1 + x_2 - x_3 + x_4 = 5
 
@@ -183,7 +184,7 @@ print(f"Número de iteraciones: {iters}")
 [![imagen-2024-06-03-110323350.png](https://i.postimg.cc/0ys07tyd/imagen-2024-06-03-110323350.png)](https://postimg.cc/2V0WD7vV)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 
 10x_1 - x_2 + 2x_3           = 6
 
@@ -251,7 +252,7 @@ print(f"Número de iteraciones: {iters}")
 [![imagen-2024-06-03-105847420.png](https://i.postimg.cc/ZRgGwkWM/imagen-2024-06-03-105847420.png)](https://postimg.cc/7G3tLWM3)
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 
 5x_1 + x_2 - x_3 + x_4 = 5
 
@@ -319,7 +320,7 @@ print(f"Número de iteraciones: {iters}")
 [![imagen-2024-06-03-110443941.png](https://i.postimg.cc/ZRxWtcSZ/imagen-2024-06-03-110443941.png)](https://postimg.cc/8JspLLcn)
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 
 4x_1 + x_2 - x_3 + x_4 = 5
 
