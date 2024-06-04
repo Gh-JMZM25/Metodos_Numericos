@@ -14,6 +14,7 @@ La interpolación es un método numérico utilizado para estimar valores descono
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/interpolacionf.png)
 
 ## Implementación de los métodos en python
+
 ### Código en Python para Interpolación Lineal
 #### Metodología en código
 
@@ -80,6 +81,7 @@ plt.show()
 ```
 #### Comprobación
 ![]()
+
 ### Ejercicio 3: Interpolación Lineal
 #### Metodología en código
 
@@ -107,6 +109,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 
 #### Comprobación
 ![IMG-20240603-WA0142.jpg](https://i.postimg.cc/Jhm3KyPy/IMG-20240603-WA0142.jpg)
+
 ### Ejercicio 4: Interpolación Cuadrática
 #### Metodología en código
 
@@ -143,6 +146,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 
 #### Comprobación
 ![IMG-20240603-WA0143.jpg](https://i.postimg.cc/HL2wNph6/IMG-20240603-WA0143.jpg)
+
 ### Ejercicio 5: Interpolación de Lagrange
 #### Metodología en código
 
