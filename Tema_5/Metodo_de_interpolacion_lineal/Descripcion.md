@@ -3,7 +3,7 @@
 ## Definición
 La interpolación lineal es un caso en donde se usa un polinomio de primer grado, es decir una función lineal o afín, para adivinar el valor de la función en un punto.
 
-## Pseudocodigo
+## Pseudocódigo
 
     Función InterpolacionLineal(x0, y0, x1, y1, x):
         Entrada: x0, y0: coordenadas del primer punto
