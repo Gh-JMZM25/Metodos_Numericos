@@ -40,7 +40,7 @@ def calcular_error_redondeo(f, a, b, n, precision):
     precision (int): Número de decimales para la aproximación.
 
     Devuelve:
-    list: Lista de errores de redondeo en los puntos del intervalo.
+    tuple: Listas de errores de redondeo, valores exactos y valores aproximados en los puntos del intervalo.
     """
     h = (b - a) / n  # tamaño del subintervalo
     valores_exactos = []
@@ -50,7 +50,7 @@ def calcular_error_redondeo(f, a, b, n, precision):
     for i in range(n + 1):
         x = a + i * h
         valor_exacto = f(x)
-        valor_aproximado = round(f(x), precision)  # Redondear a la precisión especificada
+        valor_aproximado = round(valor_exacto, precision)  # Redondear a la precisión especificada
         valores_exactos.append(valor_exacto)
         valores_aproximados.append(valor_aproximado)
         error = abs(valor_exacto - valor_aproximado)
@@ -71,11 +71,15 @@ precision = 5  # número de decimales para la aproximación
 # Calcular errores de redondeo
 errores, valores_exactos, valores_aproximados = calcular_error_redondeo(f, a, b, n, precision)
 
+# Mensaje de depuración para verificar que los cálculos se realizaron
+print("Cálculos realizados. Imprimiendo resultados...")
+
 # Imprimir resultados
 print("x\tValor Exacto\tValor Aproximado\tError de Redondeo")
 for i in range(n + 1):
     x = a + i * ((b - a) / n)
-    print(f"{x:.2f}\t{valores_exactos[i]:.5f}\t{valores_aproximados[i]:.5f}\t{errores[i]:.5f}")
+    print(f"{ x:.2f}\t{ valores_exactos[i]:.5f}\t{ valores_aproximados[i]:.5f}\t{ errores[i]:.5f}")
+
 ```
 ### Comprobación.
 
