@@ -51,6 +51,12 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 ## Implementación de los codigos en Python
 ### Ejercicio1.py
 #### Codigo
+Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
+Usando los siguientes valores:
+    x = [20, 10, 30, 45,62]  # Ejemplo con valores repetidos en x
+    y = [22,33,14,54,23]
+    x_val = 41
+    
        from math import factorial
     
     def newton_interpolation(x, y, x_val):
@@ -101,7 +107,9 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 ![image](https://github.com/J-2014/Metodo-Numericos/assets/164060185/24706c86-af2c-4768-a363-f95bb1b023fd)
 ### Ejercicio 2.py
 #### Codigo
-   
+Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
+Usando los siguientes valores:
+
     from math import factorial
     
     def newton_interpolation(x, y, x_val):
@@ -152,7 +160,9 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 
 ### Ejercicio 3.py
 #### Codigo
-   
+Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
+Usando los siguientes valores:
+
     from math import factorial
     
     def newton_interpolation(x, y, x_val):
@@ -203,7 +213,9 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 
 ### Ejercicio 4.py
 #### Codigo
-   
+Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
+Usando los siguientes valores:
+
     from math import factorial
     
     def newton_interpolation(x, y, x_val):
@@ -254,7 +266,12 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 
 ### Ejercicio 5.py
 #### Codigo
-   
+Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
+Usando los siguientes valores:
+    x = [10,98,23,78,54]  # Ejemplo con valores repetidos en x
+    y = [14,25,36,20,58]
+    x_val = 35
+
     from math import factorial
 
     def newton_interpolation(x, y, x_val):
