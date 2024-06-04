@@ -19,7 +19,7 @@ El error de truncamiento es la diferencia entre el valor exacto de una función 
 
 ## Metodología
 
-### Código en Python para Evaluar el Error de Truncamiento
+### Ejercicio 1: Evaluar el Error de Truncamiento
 A continuación, se presenta un ejemplo de código en Python para evaluar el error de truncamiento en la función \( f(x) = e^x \) y su aproximación mediante una serie de Taylor truncada en el intervalo [0, 1].
 
 ```python
