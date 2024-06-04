@@ -72,10 +72,14 @@ errores, valores_exactos, valores_aproximados = calcular_error_redondeo(f, a, b,
 # Imprimir resultados
 print("x\tValor Exacto\tValor Aproximado\tError de Redondeo")
 for i in range(n + 1):
-    x = a + i * h
+    x = a + i * ((b - a) / n)
     print(f"{x:.2f}\t{valores_exactos[i]:.5f}\t{valores_aproximados[i]:.5f}\t{errores[i]:.5f}")
 ```
 ### Comprobación.
+
+![Captura](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/6b09b2fa-b0e2-487f-b42c-f72693f5787a)
+
+
 ![]()
 ### Ejercicio 2: Redondeo de números flotantes
 Dado un número flotante, redondearlo a diferentes cantidades de cifras decimales.
@@ -99,6 +103,9 @@ print(f"Redondeado a 3 cifras decimales: {redondeado_3}")
 print(f"Redondeado a 4 cifras decimales: {redondeado_4}")
 ```
 ### Comprobación.
+
+![Captura](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/5cb889b2-68cd-47ba-9c57-fc12730e030e)
+
 ![IMG-20240603-WA0034.jpg](https://i.postimg.cc/6pbCXH0X/IMG-20240603-WA0034.jpg)
 ### Ejercicio 3: Redondeo de elementos en un array
 Dado un array de números flotantes, redondear cada elemento a una cantidad específica de cifras decimales.
