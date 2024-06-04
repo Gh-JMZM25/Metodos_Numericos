@@ -27,8 +27,9 @@
     sistema de ecuaciones.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 3x + 2y = 1
 - x + 2y = 1
@@ -76,7 +77,7 @@ Esto significa que:
 ---------
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 2x + y - z = 8
 - -3x - y + 2z = -11
@@ -122,7 +123,7 @@ Esto significa que:
 ---------
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - w + 2x + y - z = 5
 - 3w + 2x + 4y + 4z = 16
@@ -170,7 +171,7 @@ Esto significa que:
 ---------
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - 2v + w - x + 2y + 3z = 5
 - 3v + 2w + 2x + y - z = 12
@@ -221,7 +222,7 @@ Esto significa que:
 ---------
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 El sistema de ecuaciones que se resuelve es:
 - u - v + 2w - x + 3y + z = 4
 - 2u + 3v - w + 2x - y + 2z = 1
