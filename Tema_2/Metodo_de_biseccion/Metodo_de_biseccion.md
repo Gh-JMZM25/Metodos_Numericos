@@ -15,9 +15,11 @@ El método de bisección es un método numérico para encontrar raíces de ecuac
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema2/biseccionf.jpg)
 
-## Metodología
 
+## Implementación de los métodos en python
 ### Código en Python para el Método de Bisección
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para aplicar el método de bisección para encontrar una raíz de la ecuación \( f(x) = 0 \).
 
 ```python
@@ -71,8 +73,12 @@ if convergencia:
 else:
     print(f"No se alcanzó la convergencia en {iteraciones} iteraciones")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 3\) mediante el método de bisección
+#### Metodología en código
+
 Utiliza el método de bisección para encontrar la raíz de \(f(x) = x^2 - 3\) en el intervalo [1, 2].
 
 ```python
@@ -101,8 +107,12 @@ for i in range(max_iter):
 print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 3: Resolver \(f(x) = x^3 + x - 1\) mediante el método de bisección
+#### Metodología en código
+
 Utiliza el método de bisección para encontrar la raíz de \(f(x) = x^3 + x - 1\) en el intervalo [0, 1].
 
 ```python
@@ -131,8 +141,12 @@ for i in range(max_iter):
 print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 4: Resolver \(f(x) = \cos(x) - x\) mediante el método de bisección
+#### Metodología en código
+
 Utiliza el método de bisección para encontrar la raíz de \(f(x) = \cos(x) - x\) en el intervalo [0, 1].
 
 ```python
@@ -163,8 +177,12 @@ for i in range(max_iter):
 print(f"Raíz aproximada: {c}")
 print(f"Iteraciones: {i+1}")
 ```
+#### Comprobación
 
+## Implementación de los métodos en python
 ### Ejercicio 5: Resolver \(f(x) = e^{-x} - x\) mediante el método de bisección
+#### Metodología en código
+
 Utiliza el método de bisección para encontrar la raíz de \(f(x) = e^{-x} - x\) en el intervalo [0, 1].
 
 ```python
