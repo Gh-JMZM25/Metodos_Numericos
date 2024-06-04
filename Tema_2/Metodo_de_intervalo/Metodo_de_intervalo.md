@@ -17,7 +17,8 @@ El método del intervalo es una técnica numérica utilizada para encontrar raí
 
 
 ## Implementación de los métodos en python
-### Código en Python para el Método del Intervalo
+
+### Ejercicio 1: Resolver \(f(x) = x^3 - x - 2\) mediante el método del intervalo
 #### Metodología en código
 
 A continuación, se presenta un ejemplo de código en Python para aplicar el método del intervalo para encontrar una raíz de la ecuación \( f(x) = 0 \).
@@ -76,7 +77,7 @@ else:
 
 #### Comprobación
 
-## Implementación de los métodos en python
+
 ### Ejercicio 2: Resolver \(f(x) = x^2 - 5\) mediante el método del intervalo
 #### Metodología en código
 
@@ -111,7 +112,6 @@ print(f"Iteraciones: {i+1}")
 
 #### Comprobación
 
-## Implementación de los métodos en python
 ### Ejercicio 3: Resolver \(f(x) = \log(x) - 1\) mediante el método del intervalo
 #### Metodología en código
 
@@ -148,7 +148,6 @@ print(f"Iteraciones: {i+1}")
 
 #### Comprobación
 
-## Implementación de los métodos en python
 ### Ejercicio 4: Resolver \(f(x) = x^3 - 7x + 6\) mediante el método del intervalo
 #### Metodología en código
 
@@ -183,7 +182,6 @@ print(f"Iteraciones: {i+1}")
 
 #### Comprobación
 
-## Implementación de los métodos en python
 ### Ejercicio 5: Resolver \(f(x) = e^x - 3\) mediante el método del intervalo
 #### Metodología en código
 
