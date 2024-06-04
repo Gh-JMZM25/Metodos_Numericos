@@ -1,6 +1,6 @@
 # Tema 5 - Interpolación y ajuste de funciones
 
-3# Metodo de cuadratico.
+## Metodo de cuadratico.
 - [Método de intepolación cuadratica](Metodo_de_interpolacion_cuadratica/Descripcion.md)
   - [Ejercicios de intepolación cuadratica](Metodo_de_interpolacion_cuadratica/Codigos)
 
