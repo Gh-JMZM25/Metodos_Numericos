@@ -30,7 +30,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
 
 ## Implementación de los codigos en Python
 ### Ejercicio 1.py
-#### Codigo
+#### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
 Usando los siguientes valores:
     x_values = [1, 2, 3, 4, 5]
@@ -57,7 +57,7 @@ Usando los siguientes valores:
 [![Captura-de-pantalla-2024-05-20-224700.png](https://i.postimg.cc/qRBfNB5T/Captura-de-pantalla-2024-05-20-224700.png)](https://postimg.cc/wtr4Pzzf)
 
 ### Ejercicio 2.py
-#### Codigo
+#### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
 Usando los siguientes valores:
     x0 = 1
@@ -83,7 +83,7 @@ Usando los siguientes valores:
 [![Captura-de-pantalla-2024-05-20-224745.png](https://i.postimg.cc/yxWwTQKp/Captura-de-pantalla-2024-05-20-224745.png)](https://postimg.cc/K3SqG5Rt)
 
 ### Ejercicio 3.py
-#### Codigo
+#### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
 Usando los siguientes valores:
     x_values = [1, 2, 3, 4, 5]
@@ -119,7 +119,7 @@ Usando los siguientes valores:
 [![Captura-de-pantalla-2024-05-20-224835.png](https://i.postimg.cc/Qx2RpJyS/Captura-de-pantalla-2024-05-20-224835.png)](https://postimg.cc/D8cjhLFb)
 
 ### Ejercicio 4.py
-#### Codigo
+#### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
 Usando los siguientes valores:
     x0 = 1
@@ -146,7 +146,7 @@ Usando los siguientes valores:
 #### Comprobación
 [![Captura-de-pantalla-2024-05-20-224911.png](https://i.postimg.cc/Xv8m6S7D/Captura-de-pantalla-2024-05-20-224911.png)](https://postimg.cc/zLy0TQhn)
 ### Ejercicio 5.py
-#### Codigo
+#### Código
 El código implementa la interpolación lineal para aproximar el valor de una función en un punto específico x, dado un conjunto de datos de puntos conocidos (x_values, y_values).
 Usando los siguientes valores:
 x0 = 4
