@@ -6,7 +6,7 @@
 - [Metodo Runge-Kutta](Método_de_Runge-Kutta/Readme.md)
   - [Codigos en python que implementan el método de Runge-Kutta](Método_de_Runge-Kutta/Codigos/)
 
-# Método_de_Taylor
+# Método de Taylor
 - [Metodo Teylor](Método_de_Taylor/Readme.md)
   - [Codigos en python que implementan el método de Taylor](Método_de_Taylor/Codigos)
 
