@@ -1,6 +1,6 @@
 # Metodo de Euler
 
-## ¿Qué es?
+## Definición
 El método de Euler es un método numérico simple para aproximar soluciones de ecuaciones diferenciales ordinarias (EDOs) de primer orden. Es uno de los métodos más básicos y fundamentales para resolver EDOs numéricamente.
 
 En esencia, el método de Euler utiliza una aproximación de la derivada utilizando el concepto de la pendiente de la recta tangente a la curva en un punto dado. La idea es avanzar un pequeño paso a lo largo de la recta tangente para obtener una aproximación del siguiente punto en la solución.
