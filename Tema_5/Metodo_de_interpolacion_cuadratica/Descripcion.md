@@ -1,4 +1,4 @@
-# Metodo de cuadratico.
+# Método de cuadratico.
 
 ## Definición
 La interpolación consiste en hallar un dato dentro de un intervalo en el que conocemos los valores en los extremos.
