@@ -47,8 +47,7 @@ plt.show()
 ```
 
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 2: Código en Python para Interpolación Polinómica
 #### Metodología en código
 
@@ -80,8 +79,7 @@ plt.title('Interpolación Polinómica')
 plt.show()
 ```
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 3: Interpolación Lineal
 #### Metodología en código
 
@@ -108,8 +106,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 4: Interpolación Cuadrática
 #### Metodología en código
 
@@ -145,8 +142,7 @@ print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 
 #### Comprobación
-
-## Implementación de los métodos en python
+![]()
 ### Ejercicio 5: Interpolación de Lagrange
 #### Metodología en código
 
@@ -178,6 +174,6 @@ y_interp = interpolacion_lagrange(x, y, x_interp)
 print(f"Valor interpolado de f(2.5): {y_interp}")
 ```
 #### Comprobación
-
+![]()
 ### Resultados y Análisis.
 Los códigos anteriores aplican la interpolación lineal y polinómica a un conjunto de puntos conocidos. Los resultados se muestran en gráficos que ilustran cómo la función de interpolación pasa a través de todos los puntos conocidos y estima valores en puntos intermedios.
