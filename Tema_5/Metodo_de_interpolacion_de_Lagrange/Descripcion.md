@@ -42,8 +42,8 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 ## Implementación de los codigos en Python.
 ### Ejercicio 1
 #### Codigo.
-        En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
-        Usando:
+En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
+Usando:
         x = [20, 10, 30, 45, 62]
         y = [22, 33, 14, 54, 23]
         x_val = 41
