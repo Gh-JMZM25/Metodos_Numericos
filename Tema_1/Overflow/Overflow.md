@@ -73,7 +73,8 @@ for i in range(n + 1):
     overflow = "Sí" if overflows[i] else "No"
     print(f"{x:.2f}\t{valores[i]:.5e}\t{overflow}")
 ```
-
+### Comprobación 
+![]()
 ## Implementación de los métodos en python
 ### Ejercicio 2: Desbordamiento en una operación exponencial
 #### Metodología en código
@@ -93,7 +94,8 @@ try:
 except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
-
+### Comprobación
+![]()
 ## Implementación de los métodos en python
 ### Ejercicio 3: Desbordamiento en un bucle factorial
 #### Metodología en código
@@ -112,7 +114,8 @@ try:
 except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
-
+### Comprobación 
+![]()
 ## Implementación de los métodos en python
 ### Ejercicio 4: Desbordamiento en una serie geométrica
 #### Metodología en código
@@ -131,7 +134,8 @@ try:
 except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
-
+### Comprobación 
+![]()
 ## Implementación de los métodos en python
 ### Ejercicio 5: Desbordamiento en una multiplicación iterativa
 #### Metodología en código
@@ -150,7 +154,8 @@ try:
 except OverflowError as e:
     print(f"Error de desbordamiento: {e}")
 ```
-
+### Comprobación 
+![]()
 
 
 ### Resultados y Análisis.
