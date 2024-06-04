@@ -18,9 +18,10 @@ Paso 2: El polinomio de interpolación cuadrática es:
 Paso 3: Para interpolar un valor y en un punto x, evaluar:
          y = P(x)
 
-## Implementación de los codigos en Python
-### Ejercicio 1.py
-#### Codigo
+## Implementación de los métodos en python
+### Ejercicio 1: realiza una interpolación cuadrática de un conjunto de datos representados por puntos (x, y), donde x es el año y y es la población en millones.
+#### Metodología en código
+
     import numpy as np
 
     # x= año, y= población en millones
@@ -47,10 +48,13 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 #### Comprobacion
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/FFwVVLKY/IMG-20240520-234632.png)
 
-### Ejercicio 2.py
-#### Codigo
+
+#### Comprobación
+
+## Implementación de los métodos en python
+### Ejercicio 2: Programa que calcula el precio del dolar en 2016 tomando en cuenta los años 2008, 2012 y 2020
+#### Metodología en código
    
-    #Programa que calcula el precio del dolar en 2016 tomando en cuenta los años 2008, 2012 y 2020
     import numpy as np
 
     # x= año, y= población en millones
@@ -77,9 +81,13 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 #### Comprobacion
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1zRG30vj/IMG-20240520-234653.png)
 
-### Ejercicio 3.py
-#### Codigo
-    #Programa que calcula la integral x^3 donde x es 4 y 0
+#### Comprobación
+
+## Implementación de los métodos en python
+### Ejercicio 3: Programa que calcula la integral x^3 donde x es 4 y 0
+#### Metodología en código
+
+
     import numpy as np
 
     # x= intervalo, y= resultado de la integral
@@ -107,10 +115,13 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 #### Comprobacion
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/0Q8BxJSk/IMG-20240520-235820.png)
 
-### Ejercicio 4.py
-#### Codigo
+
+#### Comprobación
+
+## Implementación de los métodos en python
+### Ejercicio 4: Programa que calcula el promedio de vida en años en México durante 1980
+#### Metodología en código
    
-    #Programa que calcula el promedio de vida en años en México durante 1980
     import numpy as np
 
     # x= año, y= edad promedio
@@ -137,10 +148,12 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
 #### Comprobacion
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/Fz0dZ1PS/IMG-20240520-234709.png)
 
-### Ejercicio 5.py
-#### Codigo
+#### Comprobación
+
+## Implementación de los métodos en python
+### Ejercicio 5: Programa que calcula el porcentaje de inflación en México en 2014
+#### Metodología en código
    
-    #Programa que calcula el porcentaje de inflación en México en 2014
     import numpy as np
 
     # x= año, y= población en millones
