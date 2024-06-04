@@ -17,9 +17,11 @@ El error de truncamiento es la diferencia entre el valor exacto de una función 
 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/truncamientof.png)
 
-## Metodología
+## Implementación de los métodos en python
 
 ### Ejercicio 1: Evaluar el Error de Truncamiento
+#### Metodología en código
+
 A continuación, se presenta un ejemplo de código en Python para evaluar el error de truncamiento en la función \( f(x) = e^x \) y su aproximación mediante una serie de Taylor truncada en el intervalo [0, 1].
 
 ```python
@@ -79,7 +81,10 @@ for i in range(n + 1):
 ```
 ### Comprobación
 ![IMG-20240603-WA0100.jpg](https://i.postimg.cc/kMZ4q0rw/IMG-20240603-WA0100.jpg)
+
 ### Ejercicio 2: Aproximación de una derivada utilizando diferencias finitas
+#### Metodología en código
+
 Aproximar la derivada de una función en un punto utilizando el método de diferencias finitas hacia adelante y analizar el error de truncamiento.
 
 ```python
@@ -145,7 +150,9 @@ print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación
 ![IMG-20240603-WA0095.jpg](https://i.postimg.cc/Qt16VL45/IMG-20240603-WA0095.jpg)
+
 ### Ejercicio 4: Serie de Taylor truncada
+#### Metodología en código
 Aproximar el valor de \(\sin(x)\) usando una serie de Taylor truncada y analizar el error de truncamiento.
 
 ```python
@@ -172,7 +179,9 @@ print(f"Error de truncamiento: {error_truncamiento}")
 ```
 ### Comprobación
 ![IMG-20240603-WA0097.jpg](https://i.postimg.cc/0jvVwtF4/IMG-20240603-WA0097.jpg)
+
 ### Ejercicio 5: Diferencias finitas para aproximar la segunda derivada
+#### Metodología en código
 Aproximar la segunda derivada de una función en un punto utilizando diferencias finitas y analizar el error de truncamiento.
 
 ```python
