@@ -18,7 +18,7 @@ El overflow (desbordamiento) ocurre cuando un cálculo produce un resultado que 
 
 ## Metodología
 
-### Código en Python para Evaluar el Overflow
+### Ejercicio 1: Evaluar el Overflow
 A continuación, se presenta un ejemplo de código en Python para evaluar el problema de overflow en la función \( f(x) = e^x \) en el intervalo [0, 50].
 
 ```python
