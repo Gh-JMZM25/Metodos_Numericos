@@ -109,6 +109,9 @@ Usando los siguientes valores:
 #### Codigo
 Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
 Usando los siguientes valores:
+    x = [0,1,2,3]  # Ejemplo con valores repetidos en x
+    y = [1,2,4,8]
+    x_val = 1.5
 
     from math import factorial
     
@@ -162,6 +165,9 @@ Usando los siguientes valores:
 #### Codigo
 Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
 Usando los siguientes valores:
+    x = [13,46,79,80]  # Ejemplo con valores repetidos en x
+    y = [73,81,42,20]
+    x_val = 25
 
     from math import factorial
     
@@ -215,6 +221,9 @@ Usando los siguientes valores:
 #### Codigo
 Este código implementa la interpolación de Newton para aproximar el valor de una función en un punto específico x_val, dado un conjunto de datos de puntos conocidos (x, y).
 Usando los siguientes valores:
+    x = [12,41,23,21,63]  # Ejemplo con valores repetidos en x
+    y = [12,23,34,45,56]
+    x_val = 49
 
     from math import factorial
     
