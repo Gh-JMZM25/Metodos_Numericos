@@ -139,7 +139,12 @@ Usando:
 
 ### Ejercicio 3.py
 #### Codigo.
-   
+En este ejercicio, se implementa el método de interpolación de Lagrange para aproximar valores de una función desconocida en puntos específicos, dados un conjunto de datos de puntos (x, y).
+Usando:
+    x_values = [13, 46, 79, 80]
+    y_values = [73, 81, 42, 20,]
+    x = 10
+
     def lagrange_interpolation(x_values, y_values, x):
         n = len(x_values)
         y_interp = 0
