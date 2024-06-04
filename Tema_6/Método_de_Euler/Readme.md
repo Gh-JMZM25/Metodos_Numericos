@@ -18,7 +18,7 @@ En esencia, el método de Euler utiliza una aproximación de la derivada basánd
 Este pseudocódigo implementa el método de Euler de forma iterativa. En cada iteración, se calcula la pendiente en el punto actual (x, y) y se utiliza para aproximar el siguiente valor de y utilizando la fórmula y = y + h * pendiente. Luego, se avanza al siguiente punto actualizando x con x = x + h.
 Es importante tener en cuenta que este pseudocódigo asume que la ecuación diferencial es de primer orden y que se conocen los valores iniciales x0 y y0. Además, el método de Euler es solo una aproximación numérica, y su precisión dependerá del tamaño del paso h y de la naturaleza de la ecuación diferencial.
 
-### Pseudocodigo
+### Pseudocódigo
     ENTRADA: f(x, y) (función que define la ecuación diferencial), x0 (valor inicial de x), y0 (valor inicial de y), xn (valor final de x), n (número de subintervalos)
     
     h = (xn - x0) / n (tamaño del paso)
@@ -33,9 +33,9 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
     
     SALIDA: y (aproximación de la solución en xn)
 
-## Implementación de los codigos en Python
+## Implementación de los códigos en Python
 ### Ejercicio 1.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
     
     def euler(f, y0, t0, t_final, n):
@@ -86,7 +86,7 @@ El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la 
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
 ### Ejercicio 2.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = t * y con condición inicial y(0) = 1 desde t = 0 hasta t = 4 usando 90 pasos:
 
     import numpy as np
@@ -143,7 +143,7 @@ La ecuación dy/dt = t * y tiene una solución analítica conocida y = e^(t^2/2)
 [![imagen-2024-05-23-100537150.png](https://i.postimg.cc/c4NG5r2X/imagen-2024-05-23-100537150.png)](https://postimg.cc/bdL5ZNzt)
 
 ### Ejercicio 3.py
-#### Codigo    
+#### Código    
 En el ejemplo, se resuelve la EDO dy/dt = -2y con condición inicial y(0) = 1 desde t = 0 hasta t = 5 usando 25 pasos:
 
         def euler(f, y0, t0, t_final, n):
@@ -195,7 +195,7 @@ En esta salida, se puede observar cómo el valor de y decrece exponencialmente c
 [![imagen-2024-05-23-100625349.png](https://i.postimg.cc/Ls5cZfg6/imagen-2024-05-23-100625349.png)](https://postimg.cc/R3rskWTj)
 
 ### Ejercicio 4.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = y^2 + t^2 con condición inicial y(0) = 1 desde t(0) = 0 hasta t_final = 6 usando 10 pasos:
 
     def euler(f, y0, t0, t_final, n):
@@ -248,7 +248,7 @@ Se observa que los valores de y crecen rápidamente, lo que indica que la soluci
 [![imagen-2024-05-23-100724206.png](https://i.postimg.cc/brxWj9WL/imagen-2024-05-23-100724206.png)](https://postimg.cc/xNdtvM0b)
 
 ### Ejercicio 5.py
-#### Codigo
+#### Código
 En el ejemplo, se resuelve la EDO dy/dt = 4t^3 - 6y con condición inicial y(0) = 1 desde t(0) = 0 hasta t_final = 3 usando 41 pasos:
 
     import numpy as np
