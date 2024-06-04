@@ -1,4 +1,4 @@
-# Metodo del trapecio.
+# Metodo del trapecioo
 
 ## ¿Qué es?
 La regla del trapecio es uno de los métodos más utilizados para calcular aproximaciones numéricas de integrales definidas. Es la primera de las fórmulas cerradas de integración de  Newton – Cotes, para el caso cuando el polinomio interpolante es de grado uno.
@@ -7,7 +7,7 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 
 
 
-## Algoritmo.
+## Algoritmo
 
 1. Definir la función a integrar.
 2. Establecer los límites de integración.
@@ -105,8 +105,7 @@ print("La integral de g(x) = ", integral(g, a, b))
 
 ```
 
-### Ejecución:
-
+### Ejecución
 [![image.png](https://i.postimg.cc/rm2yq4hF/image.png)](https://postimg.cc/2qTNw1RP)
 
 
@@ -166,7 +165,7 @@ print("La integral de g(x) = ", integral(g, a, b, n))
 [![image.png](https://i.postimg.cc/XvS65b9s/image.png)](https://postimg.cc/5X3rcD7z)
 
 ### Ejercicio 3
-#### Metodologia en codigoç
+#### Metodologia en codigo
 
 ∫35(−x2+8x−12)dx
 
@@ -213,8 +212,7 @@ print("")
 ```
 
 
-### Ejecución:
-
+### Ejecución
 [![image.png](https://i.postimg.cc/Zq8tFMc4/image.png)](https://postimg.cc/wtjG9FZG)
 
 ### Ejercicio 4
@@ -262,8 +260,7 @@ print("Bibliográfia: https://www.youtube.com/watch?v=rREhW5wjkUI&list=PLJPaSlai
 print("")
 ```
 
-### Ejecución:
-
+### Ejecución
 [![image.png](https://i.postimg.cc/0jHLyR8d/image.png)](https://postimg.cc/RJKPgYJN)
 
 
@@ -322,8 +319,7 @@ print("")
 
 ```
 
-### Ejecución:
-
+### Ejecución
 [![image.png](https://i.postimg.cc/W1ZQTHxg/image.png)](https://postimg.cc/4YJ81Bfx)
 
 
