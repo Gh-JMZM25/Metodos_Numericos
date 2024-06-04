@@ -3,11 +3,11 @@
 ## Definición
 El método de Euler es un método numérico simple para aproximar soluciones de ecuaciones diferenciales ordinarias (EDOs) de primer orden. Es uno de los métodos más básicos y fundamentales para resolver EDOs numéricamente.
 
-En esencia, el método de Euler utiliza una aproximación de la derivada utilizando el concepto de la pendiente de la recta tangente a la curva en un punto dado. La idea es avanzar un pequeño paso a lo largo de la recta tangente para obtener una aproximación del siguiente punto en la solución.
+En esencia, el método de Euler utiliza una aproximación de la derivada basándose en el concepto de la pendiente de la recta tangente a la curva en un punto dado
 
 ## Explicación del pseudocódigo:
 1. Se toman como entrada la función f(x, y) que define la ecuación diferencial, los valores iniciales x0 y y0, el valor final xn y el número de subintervalos n.
-2. Se calcula el tamaño del paso h dividiendo el intervalo [x0, xn] en n subintervalos iguales.
+2. Se calcula el tamaño del paso ℎ dividiendo el intervalo [x0, xn] en 𝑛 subintervalos iguales.
 3. Se inicializan los valores x y y con los valores iniciales x0 y y0, respectivamente.
 4. Se realiza un bucle PARA desde i = 0 hasta n-1, donde:
     - Se calcula la pendiente pendiente en el punto actual (x, y) utilizando la función f(x, y).
