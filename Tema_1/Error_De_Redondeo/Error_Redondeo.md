@@ -81,12 +81,8 @@ for i in range(n + 1):
     print(f"{ x:.2f}\t{ valores_exactos[i]:.5f}\t{ valores_aproximados[i]:.5f}\t{ errores[i]:.5f}")
 
 ```
-### Comprobación.
-
-![Captura](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/6b09b2fa-b0e2-487f-b42c-f72693f5787a)
-
-
-![]()
+### Comprobación
+![IMG-20240603-WA0108.jpg](https://i.postimg.cc/4xwnkmXH/IMG-20240603-WA0108.jpg)
 
 
 ## Implementación de los métodos en python
