@@ -82,7 +82,7 @@ Se define la funcion f(x) = e^x y se solicita al usuario que ingrese el valor de
       # Imprimir el resultado
       print(f"La aproximación de e^{a} usando la serie de Taylor con {n} términos es: {aproximación}")
       
-#### Comprobacion
+#### Comprobación
 El resultado impreso es la aproximación de e^x usando la serie de Taylor con el número de términos especificado por el usuario.
 
 Por ejemplo, si ingresamos 
@@ -134,7 +134,7 @@ Se define la funcion f(x) = sen(x) y se solicita al usuario que ingrese el valor
       
       # Imprimir el resultado
       print(f"La aproximación de sin({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
-#### Comprobacion
+#### Comprobación
 El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con el número de términos especificado por el usuario.
 
 Por ejemplo, si ingresamos 
@@ -187,7 +187,7 @@ Se define la funcion f(x) = cos(x) y se solicita al usuario que ingrese el valor
       # Imprimir el resultado
       print(f"La aproximación de cos({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
       
-#### Comprobacion
+#### Comprobación
 El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con el número de términos especificado por el usuario.
 
 Por ejemplo, si ingresamos 
@@ -232,7 +232,7 @@ Se define la funcion f(x) = ln(1 + x) y se solicita al usuario que ingrese el va
       
       # Imprimir el resultado
       print(f"La aproximación de ln(1 + {a}) usando la serie de Taylor con {n} términos es: {aproximación}")
-#### Comprobacion
+#### Comprobación
 El resultado impreso es la aproximación de ln(1 + a) usando la serie de Taylor con el número de términos especificado por el usuario.
 
 Por ejemplo, si ingresamos 
@@ -285,7 +285,7 @@ Se define la funcion f(x) = x^3 + 2x^2 + x + 1 y se solicita al usuario que ingr
       
       # Imprimir el resultado
       print(f"La aproximación de f({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
-#### Comprobacion
+#### Comprobación
 Solicita al usuario el valor de a, el punto de aproximación x(0) (que en este caso se fija en 0 para la serie de Maclaurin) y el número de términos n para la aproximación.
 
 El resultado arrojado es la aproximación de f(a) utilizando la serie de Taylor con n términos alrededor del punto x(0). Este valor se calcula utilizando los términos de la serie de Taylor hasta el n-ésimo término. Dependiendo del valor de n y de la diferencia entre a y x(0), esta aproximación puede ser más precisa cuanto mayor sea el valor de n.
