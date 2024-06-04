@@ -109,7 +109,7 @@ print(f"Redondeado a 2 cifras decimales: {redondeado_2}")
 print(f"Redondeado a 3 cifras decimales: {redondeado_3}")
 print(f"Redondeado a 4 cifras decimales: {redondeado_4}")
 ```
-### Comprobación.
+### Comprobación
 
 ![IMG-20240603-WA0034.jpg](https://i.postimg.cc/6pbCXH0X/IMG-20240603-WA0034.jpg)
 
@@ -134,7 +134,7 @@ print(numeros)
 print("Array redondeado a 3 cifras decimales:")
 print(redondeados)
 ```
-### Comprobación.
+### Comprobación
 ![IMG-20240603-WA0038.jpg](https://i.postimg.cc/yNS3z7xm/IMG-20240603-WA0038.jpg)
 
 
@@ -157,7 +157,7 @@ suma_con_redondeo = sum(round(num, 3) for num in numeros)
 print(f"Suma sin redondeo: {suma_sin_redondeo}")
 print(f"Suma con redondeo a 3 cifras decimales: {suma_con_redondeo}")
 ```
-### Comprobación.
+### Comprobación
 ![IMG-20240603-WA0035.jpg](https://i.postimg.cc/4xHxYBGZ/IMG-20240603-WA0035.jpg)
 
 
@@ -183,9 +183,9 @@ resultado_con_redondeo = a_redondeado * b_redondeado
 print(f"Multiplicación sin redondeo: {resultado_sin_redondeo}")
 print(f"Multiplicación con redondeo a 3 cifras decimales: {resultado_con_redondeo}")
 ```
-### Comprobación.
+### Comprobación
 ![IMG-20240603-WA0036.jpg](https://i.postimg.cc/g0vcDjrT/IMG-20240603-WA0036.jpg)
 
-### Resultados y Análisis.
+### Resultados y Análisis
 El código anterior genera una tabla que muestra el valor exacto, el valor aproximado (redondeado a 5 decimales) y el error de redondeo en varios puntos del intervalo [0, 1]. Analizando estos resultados, se puede observar cómo el error de redondeo varía a lo largo del intervalo y entender mejor su comportamiento y magnitud.
 
