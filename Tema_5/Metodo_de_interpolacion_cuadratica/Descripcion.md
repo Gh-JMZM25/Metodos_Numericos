@@ -1,4 +1,4 @@
-# Método de cuadratico.
+# Método de cuadratico
 
 ## Definición
 La interpolación consiste en hallar un dato dentro de un intervalo en el que conocemos los valores en los extremos.
@@ -18,9 +18,9 @@ Paso 2: El polinomio de interpolación cuadrática es:
 Paso 3: Para interpolar un valor y en un punto x, evaluar:
          y = P(x)
 
-## Implementación de los codigos en Python.
+## Implementación de los codigos en Python
 ### Ejercicio 1.py
-#### Codigo.
+#### Codigo
     import numpy as np
 
     # x= año, y= población en millones
@@ -44,11 +44,11 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion.
+#### Comprobacion
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/FFwVVLKY/IMG-20240520-234632.png)
 
 ### Ejercicio 2.py
-#### Codigo.
+#### Codigo
    
     #Programa que calcula el precio del dolar en 2016 tomando en cuenta los años 2008, 2012 y 2020
     import numpy as np
@@ -74,11 +74,11 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 200, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion.
+#### Comprobacion
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1zRG30vj/IMG-20240520-234653.png)
 
 ### Ejercicio 3.py
-#### Codigo.
+#### Codigo
     #Programa que calcula la integral x^3 donde x es 4 y 0
     import numpy as np
 
@@ -104,11 +104,11 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
     
-#### Comprobacion.
+#### Comprobacion
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/0Q8BxJSk/IMG-20240520-235820.png)
 
 ### Ejercicio 4.py
-#### Codigo.
+#### Codigo
    
     #Programa que calcula el promedio de vida en años en México durante 1980
     import numpy as np
@@ -134,11 +134,11 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     # Visualización
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
-#### Comprobacion.
+#### Comprobacion
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/Fz0dZ1PS/IMG-20240520-234709.png)
 
 ### Ejercicio 5.py
-#### Codigo.
+#### Codigo
    
     #Programa que calcula el porcentaje de inflación en México en 2014
     import numpy as np
@@ -165,5 +165,5 @@ Paso 3: Para interpolar un valor y en un punto x, evaluar:
     x_range = np.linspace(0, 4, 400)
     y_range = quadratic_polynomial(x_range, coefficients)
 
-#### Comprobacion.
+#### Comprobacion
 [![imagen-2024-05-20-194355297.png](https://i.postimg.cc/1RFqPY9z/IMG-20240520-234727.png)
