@@ -17,6 +17,7 @@ El overflow (desbordamiento) ocurre cuando un cálculo produce un resultado que 
 ![](https://github.com/Mexta46/Metodos_Numericos_Tema4/blob/main/Imagenes/Imagenes_tema1/overflowf.png)
 
 ## Implementación de los métodos en python
+
 ### Ejercicio 1: Evaluar el Overflow
 #### Metodología en código
 
@@ -76,6 +77,7 @@ for i in range(n + 1):
 ```
 ### Comprobación 
 ![IMG-20240603-WA0106.jpg](https://i.postimg.cc/rpF0K5f9/IMG-20240603-WA0106.jpg)
+
 ### Ejercicio 2: Desbordamiento en una operación exponencial
 #### Metodología en código
 
@@ -96,6 +98,7 @@ except OverflowError as e:
 ```
 ### Comprobación
 ![IMG-20240603-WA0104.jpg](https://i.postimg.cc/nzGv6nSd/IMG-20240603-WA0104.jpg)
+
 ### Ejercicio 3: Desbordamiento en un bucle factorial
 #### Metodología en código
 
@@ -115,6 +118,7 @@ except OverflowError as e:
 ```
 ### Comprobación 
 ![IMG-20240603-WA0105.jpg](https://i.postimg.cc/5NTFKHN4/IMG-20240603-WA0105.jpg)
+
 ### Ejercicio 4: Desbordamiento en una serie geométrica
 #### Metodología en código
 
@@ -134,6 +138,7 @@ except OverflowError as e:
 ```
 ### Comprobación 
 ![IMG-20240603-WA0103.jpg](https://i.postimg.cc/qRvRv0MD/IMG-20240603-WA0103.jpg)
+
 ### Ejercicio 5: Desbordamiento en una multiplicación iterativa
 #### Metodología en código
 
