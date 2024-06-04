@@ -1,10 +1,10 @@
-# Regla de Simpson.
+# Regla de Simpson
 
-## ¿Que es?
+## Definición
 
 La regla de Simpson es un método de integración numérica que se utiliza para la aproximación numérica de integrales definidas1. El intervalo de integración [a, b] se subdivide en n subintervalos con n siendo un entero par. El ancho de cada subdivisión será: h = (b – a)/n2. La regla de Simpson se utiliza para aproximar el valor de una integral definida, y se basa en la idea de aproximar la curva de la función integrando polinomios de segundo grado2.
 
-## Algoritmo.
+## Algoritmo
 
 1.- Dado un intervalo ([a, b]) y una función (f(x)), la regla de 1/3 de Simpson aproxima el área bajo la curva utilizando un polinomio de segundo orden (interpolante cuadrático).
 
@@ -78,7 +78,7 @@ print("El resultado aplicando el método regla de Simpson:", resultado_simpson)
 print("Bibliográfia: https://www.youtube.com/watch?v=ypaNlJTPf9c&list=PLJPaSlai3G9YIgCJq4a3vbK6P3zWNPOWk&index=22&ab_channel=AntonioCedilloHernandez")
 print("")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/xTnRcFkL/image.png)](https://postimg.cc/MX3RL5mG)
 
 ### Ejercicio 2
@@ -153,7 +153,7 @@ print("El link anterior demuestra el resultado en Symbolab para confirmar la val
 print("El margen de error es: ", mE)
 print("")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/Z5DFsbwL/image.png)](https://postimg.cc/DSLX8TkW)
 
 ### Ejercicio 3
@@ -202,7 +202,7 @@ total = total * (h / 3)  # Ajustar el resultado por el ancho de los trapecios
 
 print(f"Resultado = {total}")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/6qwd4yQB/image.png)](https://postimg.cc/N9JyWGTn)
 
 ### Ejercicio 4
@@ -252,7 +252,7 @@ total = total * (h / 3)  # Ajustar el resultado por el ancho de los subintervalo
 
 print(f"Resultado de la aproximación = {total}")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/0jf7YP6D/image.png)](https://postimg.cc/jnDWKV4S)
 
 ### Ejercicio 5
@@ -322,7 +322,7 @@ print("El resultado aplicando el método regla de Simpson:", resultado_simpson)
 print("Bibliográfia: https://www.youtube.com/watch?v=ypaNlJTPf9c&list=PLJPaSlai3G9YIgCJq4a3vbK6P3zWNPOWk&index=22&ab_channel=AntonioCedilloHernandez")
 print("")
 ```
-### Ejecución:
+### Ejecución
 [![image.png](https://i.postimg.cc/Kv0n4chy/image.png)](https://postimg.cc/BX18V0vh)
 
 ### Ejercicio 6 (Extra java)
@@ -353,7 +353,7 @@ public static void main(String[] args)
 //This code is contributed by mits
 ```
 
-### Ejecución:
+### Ejecución
 
 [![image.png](https://i.postimg.cc/nzKmxpGg/image.png)](https://postimg.cc/xJC8yr73)
 
