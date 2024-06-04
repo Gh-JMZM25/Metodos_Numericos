@@ -10,8 +10,9 @@ La cuadratura de Gauss es un método numérico utilizado para aproximar la integ
 3. Calcular el valor aproximado de la integral como la suma ponderada de los valores de la función en los puntos de Gauss, utilizando los pesos correspondientes.
 
 ## Implementación de los metodos en python
+
 ### Ejercicio 1
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(0 a 1) e^(-x^2) dx
 
@@ -82,7 +83,7 @@ print("El resultado de la integral es:", resultado_integral)
 [![image.png](https://i.postimg.cc/1XTjZGHv/image.png)](https://postimg.cc/30XBXDzG)
 
 ### Ejercicio 2
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫(0 a 1) (1 - x^2) dx
 
@@ -115,7 +116,7 @@ print(i)
 [![image.png](https://i.postimg.cc/SxctwzzG/image.png)](https://postimg.cc/SnNr9RdX)
 
 ### Ejercicio 3
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫ {0.2}^{1.2} e^{x^2} \, dx \]
 
@@ -186,7 +187,7 @@ print("Bibliografía: https://www.youtube.com/watch?v=7fHyO8nfPIU&ab_channel=Ale
 [![image.png](https://i.postimg.cc/rm7PBGgQ/image.png)](https://postimg.cc/7GM972F2)
 
 ### Ejercicio 4
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫{-1}^{1} e^{-x^2} \, dx \]
 
@@ -246,7 +247,7 @@ print("Aproximación de la integral:", resultado)
 [![image.png](https://i.postimg.cc/65fMcNsH/image.png)](https://postimg.cc/1f40R236)
 
 ### Ejercicio 5
-#### Metodologia en codigo
+#### Metodología en código
 
 ∫ \int_{0}^{2} x^2 \, dx \]
 
